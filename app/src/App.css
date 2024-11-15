@@ -1,0 +1,11 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.react-flow__handle {
+  opacity: 0; /* Make handles invisible */
+  pointer-events: none; /* Disable interaction */
+}
