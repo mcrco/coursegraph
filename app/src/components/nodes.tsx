@@ -1,8 +1,6 @@
-import { MouseEventHandler } from 'react';
 import { Handle, NodeProps, Position, Node, useReactFlow } from '@xyflow/react';
 import { Course } from '@/models/interfaces';
 import { Card, CardTitle, CardFooter, CardHeader, CardContent, CardDescription } from './ui/card';
-import { Button } from './ui/button';
 
 export type CourseNode = Node<
     {
@@ -15,7 +13,7 @@ export type CourseNode = Node<
 
 export function CourseNode(props: NodeProps<CourseNode>) {
     let data = props.data;
-    const { getNodes, getEdges, setNodes, setEdges } = useReactFlow();
+    const { setNodes } = useReactFlow();
     const clickHandler = () => {
         setNodes((nds) =>
             nds.map((node) => {
