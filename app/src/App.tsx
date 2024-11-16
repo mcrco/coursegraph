@@ -5,10 +5,6 @@ import { CourseDict } from './models/interfaces'
 import { Edge, Position, useReactFlow } from '@xyflow/react';
 import { CourseNode } from './components/nodes';
 
-// import { Search } from 'lucide-react';
-// import { Alert, AlertDescription } from '@/components/ui/alert';
-// import { Input } from '@/components/ui/input';
-
 function App() {
     const { getNodes, getEdges, setNodes, setEdges } = useReactFlow();
 
@@ -30,6 +26,7 @@ function App() {
                             courseData: course,
                             expanded: false,
                             highlighted: false,
+                            searched: true,
                         },
                         sourcePosition: Position.Right,
                         targetPosition: Position.Left,

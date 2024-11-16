@@ -2,12 +2,14 @@ import { Handle, NodeProps, Position, Node, useReactFlow } from '@xyflow/react';
 import { Course } from '@/models/interfaces';
 import { Card, CardTitle, CardFooter, CardHeader, CardContent, CardDescription } from './ui/card';
 import { Button } from './ui/button'
+import { useCallback } from 'react';
 
 export type CourseNode = Node<
     {
         courseData: Course;
         expanded: boolean;
         highlighted: boolean;
+        searched: boolean;
     },
     'courseNode'
 >;
@@ -25,12 +27,24 @@ const edgeNoHighlight = {
     style: undefined
 }
 
-const nodeHighlight = "bg-orange-200";
+const nodeShade = "bg-gray-100 text-gray-500"
+const nodeHighlight = "bg-orange-200"
+const getNodeClassName = (data: { courseData: Course, highlighted: boolean, searched: boolean }) => {
+    let className = "";
+    if (data.highlighted)
+        className = nodeHighlight;
+    if (!data.courseData.offered)
+        className = nodeShade;
+    if (!data.searched)
+        className += " opacity-25";
+
+    return className;
+}
 
 export function CourseNode(props: NodeProps<CourseNode>) {
     let data = props.data;
     const { getNodes, setNodes, setEdges } = useReactFlow();
-    const clickHandler = () => {
+    const clickHandler = useCallback(() => {
         setNodes((nds) =>
             nds.map((node) => {
                 if (node.id == data.courseData.id) {
@@ -44,13 +58,14 @@ export function CourseNode(props: NodeProps<CourseNode>) {
                 }
                 return node;
             })
-        )
-    }
+        );
+    }, [setNodes])
 
     const highlightHandler = async () => {
         let highlightedNodes: String[] = []
         let highlightedEdges: String[] = []
         const nodes = getNodes();
+
         const dfs = (node: Node | undefined, parent: Node | null) => {
             if (!node || highlightedNodes.includes(node.id)) {
                 return;
@@ -69,6 +84,7 @@ export function CourseNode(props: NodeProps<CourseNode>) {
         dfs(nodes.find((n) => n.id == data.courseData.id), null);
 
         const highlighted = props.data.highlighted;
+
         setNodes((nds) =>
             nds.map((node) => {
                 if (highlightedNodes.includes(node.id)) {
@@ -82,7 +98,7 @@ export function CourseNode(props: NodeProps<CourseNode>) {
                 }
                 return node;
             })
-        )
+        );
         setEdges((edges) =>
             edges.map((edge) => {
                 if (highlightedEdges.includes(edge.id)) {
@@ -99,14 +115,14 @@ export function CourseNode(props: NodeProps<CourseNode>) {
                 }
                 return edge;
             })
-        )
-    }
+        );
+    };
 
     if (!data.expanded) {
         return (
             <div className='w-48'>
                 <Handle type="target" position={Position.Left} />
-                <Card onClick={clickHandler} className={props.data.highlighted ? nodeHighlight : ""}>
+                <Card onClick={clickHandler} className={getNodeClassName(data)}>
                     <CardHeader>
                         <CardTitle>{data.courseData.course_id}</CardTitle>
                     </CardHeader>
@@ -122,7 +138,7 @@ export function CourseNode(props: NodeProps<CourseNode>) {
             <Button className="absolute top-4 right-4" size="sm" variant="ghost" onClick={highlightHandler}>
                 Prereqs
             </Button>
-            <Card onClick={clickHandler} className={props.data.highlighted ? nodeHighlight : ""}>
+            <Card onClick={clickHandler} className={getNodeClassName(data)}>
                 <CardHeader>
                     <CardTitle>{data.courseData.course_id + ': ' + data.courseData.name}</CardTitle>
                     <CardDescription>Instructor(s): {data.courseData.instructors} </CardDescription>
