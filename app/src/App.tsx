@@ -1,8 +1,8 @@
 import ForceGraph from './components/force-graph'
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import { CourseDict } from './models/interfaces'
-import { Edge, Position, useReactFlow } from '@xyflow/react';
+import { Node, Edge, Position, useReactFlow } from '@xyflow/react';
 import { CourseNode } from './components/nodes';
 
 // import { Search } from 'lucide-react';
