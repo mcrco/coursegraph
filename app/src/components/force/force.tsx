@@ -2,6 +2,8 @@ import { useMemo, useRef } from 'react';
 import {
     useReactFlow,
     useNodesInitialized,
+    Node,
+    OnNodeDrag
 } from '@xyflow/react';
 
 import {
@@ -9,9 +11,11 @@ import {
     forceLink,
     forceManyBody,
     forceX,
-    forceY
+    forceY,
 } from 'd3-force';
-import { collide } from './collide.js';
+
+import collide from './collide';
+import { ForceNode, ReactFlowSND } from '@/models/interfaces.js';
 
 const simulation = forceSimulation()
     .force('charge', forceManyBody().strength(-2000))
@@ -21,15 +25,26 @@ const simulation = forceSimulation()
     .alphaTarget(0.05)
     .stop();
 
-export const useLayoutedElements = () => {
+type LayoutedElementsTpe = [
+    boolean,
+    { toggle: () => void; isRunning: () => boolean },
+    {
+        start: OnNodeDrag<Node>,
+        drag: OnNodeDrag<Node>,
+        stop: () => void
+    }
+
+]
+
+export const useLayoutedElements = (): LayoutedElementsTpe => {
     const { getNodes, setNodes, getEdges, fitView } = useReactFlow();
     const initialized = useNodesInitialized();
 
-    const draggingNodeRef = useRef(null);
+    let draggingNodeRef = useRef<Node | null>(null);
     const dragEvents = useMemo(
         () => ({
-            start: (_event, node) => (draggingNodeRef.current = node),
-            drag: (_event, node) => (draggingNodeRef.current = node),
+            start: (_event: React.MouseEvent, node: Node) => (draggingNodeRef.current = node),
+            drag: (_event: React.MouseEvent, node: Node) => (draggingNodeRef.current = node),
             stop: () => (draggingNodeRef.current = null),
         }),
         [],
@@ -39,17 +54,25 @@ export const useLayoutedElements = () => {
         let nodes = getNodes().map((node) => ({
             ...node,
             x: node.position.x,
-            y: node.position.y,
-        }));
+            y: node.position.y
+        }) as ForceNode);
         let edges = getEdges().map((edge) => edge);
         let running = false;
 
-        if (!initialized || nodes.length === 0) return [false, {}, dragEvents];
+        if (!initialized || nodes.length === 0) {
+            return [false, { toggle: () => undefined, isRunning: () => false }, dragEvents];
+        }
 
         simulation.nodes(nodes).force(
             'link',
             forceLink(edges)
-                .id((d) => d.id)
+                .id((d, _i, _nodesData) => {
+                    let d_: ReactFlowSND = d as ReactFlowSND;
+                    if (!d_.id) {
+                        return "";
+                    }
+                    return d_.id;
+                })
                 .strength(0.05)
                 .distance(100),
         );
@@ -59,8 +82,10 @@ export const useLayoutedElements = () => {
                 const dragging = draggingNodeRef.current?.id === node.id;
 
                 if (dragging) {
-                    nodes[i].fx = draggingNodeRef.current.position.x;
-                    nodes[i].fy = draggingNodeRef.current.position.y;
+                    if (draggingNodeRef.current) {
+                        nodes[i].fx = draggingNodeRef.current.position.x;
+                        nodes[i].fy = draggingNodeRef.current.position.y;
+                    }
                 } else {
                     delete nodes[i].fx;
                     delete nodes[i].fy;
@@ -96,7 +121,7 @@ export const useLayoutedElements = () => {
 
         const isRunning = () => running;
 
-        return [true, { toggle, isRunning }, dragEvents];
+        return [true, { toggle: toggle, isRunning: isRunning }, dragEvents];
     }, [initialized, dragEvents, getNodes, getEdges, setNodes, fitView]);
 };
 

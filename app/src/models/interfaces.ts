@@ -1,4 +1,5 @@
 import { Node, Edge } from "@xyflow/react";
+import { SimulationNodeDatum } from "d3-force";
 
 export interface Course {
     id: string;
@@ -21,4 +22,20 @@ export interface CourseDict {
 export interface CourseGraphProps {
     initialNodes: Node[]
     initialEdges: Edge[]
+}
+
+export interface ForceNode extends Node {
+    x: number;
+    y: number;
+    fx?: number;
+    fy?: number;
+}
+
+export interface ReactFlowSND extends SimulationNodeDatum {
+    id?: string;
+}
+
+export interface Collide {
+    (alpha: number): void;
+    initialize: (a: ForceNode[]) => void;
 }
