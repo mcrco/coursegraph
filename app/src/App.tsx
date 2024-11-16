@@ -13,7 +13,6 @@ function App() {
     const { getNodes, getEdges, setNodes, setEdges } = useReactFlow();
 
     useEffect(() => {
-        console.log("Getting nodes");
         fetch('/cs.json')
             .then(response => response.json())
             .then((jsonData) => {
@@ -30,7 +29,7 @@ function App() {
                         data: {
                             courseData: course,
                             expanded: false,
-                            highlighted: false
+                            highlighted: false,
                         },
                         sourcePosition: Position.Right,
                         targetPosition: Position.Left,

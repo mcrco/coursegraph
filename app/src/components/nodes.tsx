@@ -1,6 +1,7 @@
 import { Handle, NodeProps, Position, Node, useReactFlow } from '@xyflow/react';
 import { Course } from '@/models/interfaces';
 import { Card, CardTitle, CardFooter, CardHeader, CardContent, CardDescription } from './ui/card';
+import { Button } from './ui/button'
 
 export type CourseNode = Node<
     {
@@ -11,9 +12,24 @@ export type CourseNode = Node<
     'courseNode'
 >;
 
+const edgeHighlight = {
+    animated: true,
+    style: {
+        stroke: 'orange',
+        strokeWidth: 3
+    }
+}
+
+const edgeNoHighlight = {
+    animated: false,
+    style: undefined
+}
+
+const nodeHighlight = "bg-orange-200";
+
 export function CourseNode(props: NodeProps<CourseNode>) {
     let data = props.data;
-    const { setNodes } = useReactFlow();
+    const { getNodes, setNodes, setEdges } = useReactFlow();
     const clickHandler = () => {
         setNodes((nds) =>
             nds.map((node) => {
@@ -27,8 +43,62 @@ export function CourseNode(props: NodeProps<CourseNode>) {
                     }
                 }
                 return node;
+            })
+        )
+    }
+
+    const highlightHandler = async () => {
+        let highlightedNodes: String[] = []
+        let highlightedEdges: String[] = []
+        const nodes = getNodes();
+        const dfs = (node: Node | undefined, parent: Node | null) => {
+            if (!node || highlightedNodes.includes(node.id)) {
+                return;
             }
-            )
+
+            highlightedNodes.push(node.id);
+            if (parent) {
+                highlightedEdges.push(`${node.id}-${parent.id}`)
+            }
+
+            const prereqs: String[] = (node.data.courseData as Course).prereqs;
+            for (let prereq of prereqs) {
+                dfs(nodes.find((n) => n.id == prereq), node);
+            }
+        }
+        dfs(nodes.find((n) => n.id == data.courseData.id), null);
+
+        const highlighted = props.data.highlighted;
+        setNodes((nds) =>
+            nds.map((node) => {
+                if (highlightedNodes.includes(node.id)) {
+                    return {
+                        ...node,
+                        data: {
+                            ...node.data,
+                            highlighted: !highlighted
+                        }
+                    }
+                }
+                return node;
+            })
+        )
+        setEdges((edges) =>
+            edges.map((edge) => {
+                if (highlightedEdges.includes(edge.id)) {
+                    if (highlighted) {
+                        return {
+                            ...edge,
+                            ...edgeNoHighlight
+                        };
+                    }
+                    return {
+                        ...edge,
+                        ...edgeHighlight
+                    };
+                }
+                return edge;
+            })
         )
     }
 
@@ -36,7 +106,7 @@ export function CourseNode(props: NodeProps<CourseNode>) {
         return (
             <div className='w-48'>
                 <Handle type="target" position={Position.Left} />
-                <Card onClick={clickHandler}>
+                <Card onClick={clickHandler} className={props.data.highlighted ? nodeHighlight : ""}>
                     <CardHeader>
                         <CardTitle>{data.courseData.course_id}</CardTitle>
                     </CardHeader>
@@ -47,17 +117,23 @@ export function CourseNode(props: NodeProps<CourseNode>) {
     }
 
     return (
-        <div className='max-w-3xl text-left'>
+        <div className='max-w-3xl min-w-xl text-left relative'>
             <Handle type="target" position={Position.Left} />
-            <Card onClick={clickHandler}>
+            <Button className="absolute top-4 right-4" size="sm" variant="ghost" onClick={highlightHandler}>
+                Prereqs
+            </Button>
+            <Card onClick={clickHandler} className={props.data.highlighted ? nodeHighlight : ""}>
                 <CardHeader>
                     <CardTitle>{data.courseData.course_id + ': ' + data.courseData.name}</CardTitle>
-                    <CardDescription>{data.courseData.instructors + ' | ' + data.courseData.units}</CardDescription>
+                    <CardDescription>Instructor(s): {data.courseData.instructors} </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    <p>{data.courseData.description}</p>
+                    {data.courseData.description || "No description provided."}
                 </CardContent>
-                <CardFooter><p>{data.courseData.terms}</p></CardFooter>
+                <CardFooter>
+                    Offered&nbsp;<i>{data.courseData.terms || "??"}</i>&thinsp;
+                    for {data.courseData.units || "variable units"}.
+                </CardFooter>
             </Card>
             < Handle type="source" position={Position.Right} />
         </div>

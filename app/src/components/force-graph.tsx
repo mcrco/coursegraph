@@ -34,7 +34,7 @@ const ForceGraph = ({ initialNodes, initialEdges }: CourseGraphProps) => {
                 <Panel position="top-right">
                     {initialized && (
                         <Button onClick={toggle} className=''>
-                            {isRunning() ? 'Stop' : 'Start'} force simulation
+                            {isRunning() ? 'Locked' : 'Floating'} Mode
                         </Button>
                     )}
                 </Panel>
