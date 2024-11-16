@@ -47,7 +47,7 @@ for div in entries:
         print(course_id, 'does not have any description.')
         description=""
 
-    offered = not "Not offered 2024-2025"
+    offered = "Not offered" not in description
 
     try:
         instructor_div = div.find("div", class_="course-description2__instructors")
@@ -104,8 +104,9 @@ if os.path.exists(os.path.join("json", prereq_filename)):
     for key in courses:
         if key in prereqs:
             courses[key]["prereqs"] = prereqs[key]["prereqs"]
-            if courses[key]["id"] in courses[key]["prereqs"]:
-                courses[key]["prereqs"].remove(courses[key]["id"])
+            for prereq in courses[key]["prereqs"]:
+                if prereq == courses[key]["id"] or prereq not in courses:
+                    courses[key]["prereqs"].remove(prereq)
     out_filename = "cs.json"
     with open(os.path.join("json", out_filename), 'w', encoding='utf-8') as json_file:
         json.dump(courses, json_file, indent=4)
