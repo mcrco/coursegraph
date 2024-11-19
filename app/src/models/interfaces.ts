@@ -1,3 +1,4 @@
+import { CourseNode } from "@/components/nodes";
 import { Node, Edge } from "@xyflow/react";
 import { SimulationNodeDatum } from "d3-force";
 
@@ -38,4 +39,17 @@ export interface ReactFlowSND extends SimulationNodeDatum {
 export interface Collide {
     (alpha: number): void;
     initialize: (a: ForceNode[]) => void;
+}
+
+export interface NodesState {
+    expandedNodes: Set<string>;
+    toggleExpanded: (id: string) => void;
+
+    prereqRootNodes: Set<string>;
+    highlightedNodes: Set<string>;
+    highlightedEdges: Set<string>;
+    togglePrereqRoot: (id: string, nodes: CourseNode[]) => void;
+
+    searchTerm: string;
+    setSearchTerm: (term: string) => void;
 }

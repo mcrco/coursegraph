@@ -1,12 +1,14 @@
 import ForceGraph from './components/force-graph'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { CourseDict } from './models/interfaces'
-import { Edge, Position, useReactFlow } from '@xyflow/react';
+import { Edge, Position } from '@xyflow/react';
 import { CourseNode } from './components/nodes';
+import { ReactFlowProvider } from '@xyflow/react';
 
 function App() {
-    const { getNodes, getEdges, setNodes, setEdges } = useReactFlow();
+    const [nodes, setNodes] = useState<CourseNode[]>([]);
+    const [edges, setEdges] = useState<Edge[]>([]);
 
     useEffect(() => {
         fetch('/cs.json')
@@ -23,10 +25,7 @@ function App() {
                             x: Math.ceil(count / 16) * 200, y: (count % 16) * 100
                         },
                         data: {
-                            courseData: course,
-                            expanded: false,
-                            highlighted: false,
-                            searched: true,
+                            course: course,
                         },
                         sourcePosition: Position.Right,
                         targetPosition: Position.Left,
@@ -38,6 +37,7 @@ function App() {
                             id: `${prereq}-${course.id}`,
                             source: prereq,
                             target: course.id,
+                            // type: "courseEdge",
                         });
                     }
                     count += 1;
@@ -50,7 +50,9 @@ function App() {
 
     return (
         <div className="w-screen h-screen flex">
-            <ForceGraph initialNodes={getNodes()} initialEdges={getEdges()} />
+            <ReactFlowProvider>
+                <ForceGraph initialNodes={nodes} initialEdges={edges} />
+            </ReactFlowProvider>
         </div>
     )
 }

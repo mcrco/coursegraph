@@ -6,41 +6,41 @@ import {
 } from '@xyflow/react';
 
 import '@xyflow/react/dist/style.css';
-import { Course, CourseGraphProps } from '@/models/interfaces.js';
+import { CourseGraphProps } from '@/models/interfaces.js';
 import { useLayoutedElements } from '@/components/force/force'
-import { CourseNode } from './nodes';
+import CourseNode from './nodes';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { useCallback, useState } from 'react';
+import { useEffect } from 'react';
+import { useGraphStore } from '@/stores/graphStore';
 
 const nodeTypes = { courseNode: CourseNode };
 
 const ForceGraph = ({ initialNodes, initialEdges }: CourseGraphProps) => {
+    // const [departments, setDepartments] = useState<string[]>();
     const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
-    const [edges, , onEdgesChange] = useEdgesState(initialEdges);
+    const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
     const [initialized, { toggle, isRunning }, dragEvents] = useLayoutedElements();
 
-    const [searchTerm, setSearchTerm] = useState<string>("");
-    const handleSearch = useCallback((term: string) => {
-        setSearchTerm(term);
-        const termLower = term.toLowerCase();
+    useEffect(() => {
+        setNodes((_nds) => initialNodes);
+        setEdges((_eds) => initialEdges);
+    }, [initialNodes, initialEdges])
 
-        setNodes((nds) =>
-            nds.map((node) => {
-                console.log(node.data)
-                let data: Course = node.data.courseData as Course;
-                const containsTerm = data.name.toLowerCase().includes(termLower) ||
-                    data.course_id.toLowerCase().includes(termLower);
-                return {
-                    ...node,
-                    data: {
-                        ...node.data,
-                        searched: containsTerm
-                    }
-                }
-            })
-        );
-    }, [setSearchTerm, setNodes]);
+    const searchTerm = useGraphStore((state) => state.searchTerm);
+    const setSearchTerm = useGraphStore((state) => state.setSearchTerm);
+    const highlightedEdges = useGraphStore((state) => state.highlightedEdges);
+
+    useEffect(() => {
+        setEdges((edges) => edges.map((edge) => ({
+            ...edge,
+            animated: highlightedEdges.has(edge.id),
+            style: highlightedEdges.has(edge.id) ? {
+                stroke: 'orange',
+                strokeWidth: 3,
+            } : undefined
+        })))
+    }, [highlightedEdges]);
 
     return (
         <div className="w-screen h-screen flex">
@@ -58,9 +58,9 @@ const ForceGraph = ({ initialNodes, initialEdges }: CourseGraphProps) => {
                 <Panel position='top-left'>
                     <Input
                         type='text'
-                        placeholder='Search courses'
-                        onChange={(e) => handleSearch(e.target.value)}
-                        className='max-w-64'
+                        placeholder='Fuzzy search courses'
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        className='w-56'
                         value={searchTerm}
                     ></Input>
                 </Panel>

@@ -59,7 +59,7 @@ export const useLayoutedElements = (): LayoutedElementsTpe => {
         let edges = getEdges().map((edge) => edge);
         let running = false;
 
-        if (!initialized || nodes.length === 0) {
+        if (!initialized || nodes.length == 0) {
             return [false, { toggle: () => undefined, isRunning: () => false }, dragEvents];
         }
 
