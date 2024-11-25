@@ -12,7 +12,7 @@ import { useLayoutedElements } from '@/components/force/force'
 const ForceGraph = ({ initialNodes, initialEdges }: CourseGraphProps) => {
     const [nodes, , onNodesChange] = useNodesState(initialNodes);
     const [edges, , onEdgesChange] = useEdgesState(initialEdges);
-    const [initialized, { toggle, isRunning }, dragEvents] = useLayoutedElements();
+    const [initialized, { toggleSim, isRunning }, dragEvents] = useLayoutedElements();
 
     return (
         <div className="w-screen h-screen flex">
@@ -27,7 +27,7 @@ const ForceGraph = ({ initialNodes, initialEdges }: CourseGraphProps) => {
             >
                 <Panel position="top-right">
                     {initialized && (
-                        <button onClick={toggle} className=''>
+                        <button onClick={toggleSim} className=''>
                             {isRunning() ? 'Stop' : 'Start'} force simulation
                         </button>
                     )}
