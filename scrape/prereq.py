@@ -1,19 +1,6 @@
 import json
 import re
 
-depts = ["cms", "ma", "ee", "ph", "ay", "mce"]
-
-courses = {}
-for dept in depts:
-    with open(f"json/{dept}_basic.json") as f:
-        dept_courses = json.load(f)
-        courses.update(dept_courses)
-
-prefixes = ["ma", "ee", "ph", "acm", "ids", "ay", "cs", "me"]
-escaped_strings = [re.escape(s) for s in prefixes]
-pattern = rf"(?:{'|'.join(escaped_strings)})(?:/(?:{'|'.join(escaped_strings)}))* \d+"
-regex = re.compile(pattern)
-
 
 def has_no_numbers(string):
     for char in string:
@@ -23,6 +10,21 @@ def has_no_numbers(string):
 
 
 def extract_prereqs(prereq_text):
+    depts = ["cms", "ma", "ee", "ph", "ay", "mce"]
+
+    courses = {}
+    for dept in depts:
+        with open(f"json/{dept}.json") as f:
+            dept_courses = json.load(f)
+            courses.update(dept_courses)
+
+    prefixes = ["ma", "ee", "ph", "acm", "ids", "ay", "cs", "me"]
+    escaped_strings = [re.escape(s) for s in prefixes]
+    pattern = (
+        rf"(?:{'|'.join(escaped_strings)})(?:/(?:{'|'.join(escaped_strings)}))* \d+"
+    )
+    regex = re.compile(pattern)
+
     if not prereq_text:
         return []
 

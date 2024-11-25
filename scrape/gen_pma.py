@@ -3,7 +3,7 @@ import requests
 import os
 
 from json_util import save_courses
-from scrape.prereq import extract_prereqs
+from prereq import extract_prereqs
 
 
 def scrape_pma(dept):
@@ -39,7 +39,9 @@ def scrape_pma(dept):
         course_id = div.find("span", class_="course-description__label").get_text(
             strip=True
         )
-        name = div.find("span", class_="course-description__title").get_text(strip=True)
+        name = div.find("span", class_="course-description__title").get_text(
+            strip=True
+        )[:-1]
         link = url
 
         units = ""
