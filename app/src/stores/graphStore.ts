@@ -1,5 +1,5 @@
 import { CourseNode } from "@/components/nodes";
-import { NodesState } from "@/models/interfaces";
+import { CourseDict, NodesState } from "@/models/interfaces";
 import { create } from "zustand";
 
 const getHighlighted = (roots: Set<string>, nodes: CourseNode[]) => {
@@ -26,11 +26,6 @@ const getHighlighted = (roots: Set<string>, nodes: CourseNode[]) => {
 
 export const useGraphStore = create<NodesState>((set) => ({
     expandedNodes: new Set<string>(),
-    prereqRootNodes: new Set<string>(),
-    highlightedNodes: new Set<string>(),
-    highlightedEdges: new Set<string>(),
-    searchTerm: "",
-
     toggleExpanded: (id: string) => {
         set((state) => {
             const updated = new Set(state.expandedNodes);
@@ -43,6 +38,9 @@ export const useGraphStore = create<NodesState>((set) => ({
         })
     },
 
+    prereqRootNodes: new Set<string>(),
+    highlightedNodes: new Set<string>(),
+    highlightedEdges: new Set<string>(),
     togglePrereqRoot: (id: string, nodes: CourseNode[]) => {
         set((state) => {
             const updated = new Set(state.prereqRootNodes);
@@ -60,5 +58,26 @@ export const useGraphStore = create<NodesState>((set) => ({
         })
     },
 
+    searchTerm: "",
     setSearchTerm: (term: string) => { set({ searchTerm: term }) },
+
+    depts: new Set<string>(["cms"]),
+    toggleDept: (dept: string) => {
+        set((state) => {
+            const updated = new Set(state.depts);
+            if (updated.has(dept)) {
+                updated.delete(dept);
+            } else {
+                updated.add(dept);
+            }
+            return {
+                depts: updated
+            }
+        })
+    },
+
+    courseData: {} as CourseDict,
+    setCourseData: (data: CourseDict) => {
+        set((_state) => ({ courseData: data }));
+    }
 }))

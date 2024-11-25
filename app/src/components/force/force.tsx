@@ -1,4 +1,4 @@
-import { useMemo, useRef } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import {
     useReactFlow,
     useNodesInitialized,
@@ -16,6 +16,7 @@ import {
 
 import collide from './collide';
 import { ForceNode, ReactFlowSND } from '@/models/interfaces.js';
+import { useGraphStore } from '@/stores/graphStore';
 
 const simulation = forceSimulation()
     .force('charge', forceManyBody().strength(-2000))
@@ -27,7 +28,7 @@ const simulation = forceSimulation()
 
 type LayoutedElementsTpe = [
     boolean,
-    { toggle: () => void; isRunning: () => boolean },
+    { stopSim: () => void; toggleSim: () => void; isRunning: () => boolean },
     {
         start: OnNodeDrag<Node>,
         drag: OnNodeDrag<Node>,
@@ -39,6 +40,11 @@ type LayoutedElementsTpe = [
 export const useLayoutedElements = (): LayoutedElementsTpe => {
     const { getNodes, setNodes, getEdges, fitView } = useReactFlow();
     const initialized = useNodesInitialized();
+
+    const depts = useGraphStore((state) => state.depts);
+    useEffect(() => {
+        simulation.restart();
+    }, [depts])
 
     let draggingNodeRef = useRef<Node | null>(null);
     const dragEvents = useMemo(
@@ -60,7 +66,7 @@ export const useLayoutedElements = (): LayoutedElementsTpe => {
         let running = false;
 
         if (!initialized || nodes.length == 0) {
-            return [false, { toggle: () => undefined, isRunning: () => false }, dragEvents];
+            return [false, { stopSim: () => undefined, toggleSim: () => undefined, isRunning: () => false }, dragEvents];
         }
 
         simulation.nodes(nodes).force(
@@ -121,7 +127,7 @@ export const useLayoutedElements = (): LayoutedElementsTpe => {
 
         const isRunning = () => running;
 
-        return [true, { toggle: toggle, isRunning: isRunning }, dragEvents];
+        return [true, { stopSim: () => { running = !running }, toggleSim: toggle, isRunning: isRunning }, dragEvents];
     }, [initialized, dragEvents, getNodes, getEdges, setNodes, fitView]);
 };
 

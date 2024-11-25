@@ -1,3 +1,5 @@
+scrape/json/*
+
 # Logs
 logs
 *.log

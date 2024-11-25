@@ -52,4 +52,10 @@ export interface NodesState {
 
     searchTerm: string;
     setSearchTerm: (term: string) => void;
+
+    depts: Set<string>;
+    toggleDept: (term: string) => void;
+
+    courseData: CourseDict;
+    setCourseData: (data: CourseDict) => void;
 }

@@ -1,0 +1,452 @@
+{
+    "ee-1": {
+        "id": "ee-1",
+        "name": "The Science of Data, Signals, and Information",
+        "prereq_text": ""
+    },
+    "ee-2102": {
+        "id": "ee-2102",
+        "name": "Electrical Engineering Entrepreneurial and Research Seminar",
+        "prereq_text": ""
+    },
+    "eeme-7": {
+        "id": "eeme-7",
+        "name": "Introduction to Mechatronics",
+        "prereq_text": ""
+    },
+    "aphee-9": {
+        "id": "aphee-9",
+        "name": "Solid-State Electronics for Integrated Circuits",
+        "prereq_text": ""
+    },
+    "eecs-10-ab": {
+        "id": "eecs-10-ab",
+        "name": "Introduction to Digital Logic and Embedded Systems",
+        "prereq_text": ""
+    },
+    "ee-13": {
+        "id": "ee-13",
+        "name": "Electronic System Prototyping",
+        "prereq_text": ""
+    },
+    "aphee-23": {
+        "id": "aphee-23",
+        "name": "Demonstration Lectures in Classical and Quantum Photonics",
+        "prereq_text": "Prerequisites: Ph 1 abc is required; a class on waves (Ph2a or Ph12a) is strongly encouraged but not required; prior knowledge of quantum mechanics is not required.."
+    },
+    "aphee-24": {
+        "id": "aphee-24",
+        "name": "Introductory Optics and Photonics Laboratory",
+        "prereq_text": "Prerequisites: Ph 1 abc is required; APh 23 and a class on waves (Ph2a or Ph12a) are strongly encouraged but not required."
+    },
+    "eeaph-40": {
+        "id": "eeaph-40",
+        "name": "Physics of Electrical Engineering",
+        "prereq_text": ""
+    },
+    "ee-44": {
+        "id": "ee-44",
+        "name": "Deterministic Analysis of Systems and Circuits",
+        "prereq_text": "Prerequisites: Ph 1 abc, can be taken concurrently with Ma 2 and Ph 2 a."
+    },
+    "ee-45": {
+        "id": "ee-45",
+        "name": "Electronics Systems and Laboratory",
+        "prereq_text": "Prerequisites: EE 44."
+    },
+    "ee-55": {
+        "id": "ee-55",
+        "name": "Mathematics of Electrical Engineering",
+        "prereq_text": "Prerequisites: Ma 1 abc."
+    },
+    "cseeme-75-abc": {
+        "id": "cseeme-75-abc",
+        "name": "Multidisciplinary Systems Engineering",
+        "prereq_text": ""
+    },
+    "ee-80-abc": {
+        "id": "ee-80-abc",
+        "name": "Senior Thesis",
+        "prereq_text": "Prerequisites: instructor's permission, which should be obtained during the junior year to allow sufficient time for planning the research."
+    },
+    "ee-90": {
+        "id": "ee-90",
+        "name": "Analog Electronics Project Laboratory",
+        "prereq_text": "Prerequisites: EE 45 or EE 85."
+    },
+    "ee-91-ab": {
+        "id": "ee-91-ab",
+        "name": "Experimental Projects in Electronic Circuits",
+        "prereq_text": "Prerequisites: EE 90; Recommended: EE/ME 007, EE/CS 10 ab, EE 13 and EE/MedE 114 ab (may be taken concurrently). Open to seniors; others only with instructor's permission."
+    },
+    "ee-99": {
+        "id": "ee-99",
+        "name": "Advanced Work in Electrical Engineering",
+        "prereq_text": ""
+    },
+    "ee-105-ab": {
+        "id": "ee-105-ab",
+        "name": "Electrical Engineering Seminar",
+        "prereq_text": ""
+    },
+    "acmee-106-ab": {
+        "id": "acmee-106-ab",
+        "name": "Introductory Methods of Computational Mathematics",
+        "prereq_text": "Prerequisites: For ACM/EE 106 a, Ma 1 abc, Ma 2, Ma 3, ACM 11; for ACM/EE 106 b, ACM 95/100 ab or equivalent."
+    },
+    "aphee-109": {
+        "id": "aphee-109",
+        "name": "Introduction to the Micro/Nanofabrication Lab",
+        "prereq_text": ""
+    },
+    "ee-110-abc": {
+        "id": "ee-110-abc",
+        "name": "Embedded Systems Design Laboratory",
+        "prereq_text": ""
+    },
+    "ee-111": {
+        "id": "ee-111",
+        "name": "Signal-Processing Systems and Transforms",
+        "prereq_text": "Prerequisites: Ma 1."
+    },
+    "ee-112": {
+        "id": "ee-112",
+        "name": "Introduction to Signal Processing from Data",
+        "prereq_text": "Prerequisites: EE 111 or equivalent. Math 3 recommended."
+    },
+    "ee-113": {
+        "id": "ee-113",
+        "name": "Feedback and Control Circuits",
+        "prereq_text": "Prerequisites: EE 45 (may be taken concurrently) or equivalent."
+    },
+    "eemede-114-ab": {
+        "id": "eemede-114-ab",
+        "name": "Analog Circuit Design",
+        "prereq_text": "Prerequisites: EE 44 or equivalent."
+    },
+    "eemede-115": {
+        "id": "eemede-115",
+        "name": "Micro-/Nano-scales Electro-Optics",
+        "prereq_text": "Prerequisites: Introductory electromagnetic class and consent of the instructor."
+    },
+    "acmeeids-116": {
+        "id": "acmeeids-116",
+        "name": "Introduction to Probability Models",
+        "prereq_text": "Prerequisites: Ma 3 or EE 55, some familiarity with MATLAB, e.g. ACM 11, is desired."
+    },
+    "meeeest-117": {
+        "id": "meeeest-117",
+        "name": "Energy Technology and Policy",
+        "prereq_text": "Prerequisites: Ph 1 abc, Ch 1 ab and Ma 1 abc."
+    },
+    "phaphee-118-c": {
+        "id": "phaphee-118-c",
+        "name": "Physics of Measurement: Moonbounce and Beyond - Microwave Scattering for Communications and Metrology",
+        "prereq_text": "Prerequisites: Ph 118a, and a course in microwave physics and engineering (e.g., Ph 118b, EE 153, or equivalent), or permission from the instructor."
+    },
+    "phapheebe-118-ab": {
+        "id": "phapheebe-118-ab",
+        "name": "Physics of Measurement",
+        "prereq_text": "Prerequisites: Ph 127, APh 105, or equivalent, or permission from instructor."
+    },
+    "eecs-119-abc": {
+        "id": "eecs-119-abc",
+        "name": "Advanced Digital Systems Design",
+        "prereq_text": "Prerequisites: EE/CS 10 a or CS 24."
+    },
+    "eeaph-120": {
+        "id": "eeaph-120",
+        "name": "Physical Optics",
+        "prereq_text": "Prerequisites: Intermediate-level familiarity with Fourier transforms and linear systems analysis. Basic understanding of Maxwell's electromagnetic theory (EE/APh 40 and EE 44, or equivalent)."
+    },
+    "ee-121": {
+        "id": "ee-121",
+        "name": "Great Ideas in Data Science",
+        "prereq_text": "Prerequisites: linear algebra and probability at the level of EE 55 or of ACM 104 + ACM 116."
+    },
+    "cmsacmee-122": {
+        "id": "cmsacmee-122",
+        "name": "Mathematical Optimization",
+        "prereq_text": "Prerequisites: ACM 11 and ACM 104, or instructor's permission."
+    },
+    "eeaph-123": {
+        "id": "eeaph-123",
+        "name": "Advanced Lasers and Photonics Laboratory",
+        "prereq_text": ""
+    },
+    "eemede-124": {
+        "id": "eemede-124",
+        "name": "Mixed-mode Integrated Circuits",
+        "prereq_text": "Prerequisites: EE 45 a or equivalent."
+    },
+    "eecsmede-125": {
+        "id": "eecsmede-125",
+        "name": "Digital Circuit Design with FPGAs and VHDL",
+        "prereq_text": "Prerequisites: EE/CS 10 or equivalent."
+    },
+    "eemacs-126-ab": {
+        "id": "eemacs-126-ab",
+        "name": "Information Theory",
+        "prereq_text": "Prerequisites: Ma 3."
+    },
+    "eemacsids-127": {
+        "id": "eemacsids-127",
+        "name": "Error-Correcting Codes",
+        "prereq_text": "Prerequisites: EE 55 or equivalent."
+    },
+    "ee-128-ab": {
+        "id": "ee-128-ab",
+        "name": "Selected Topics in Digital Signal Processing",
+        "prereq_text": "Prerequisites: EE 111 and EE/CS/IDS 160 or equivalent required, and EE 112 or equivalent recommended."
+    },
+    "mecsee-129": {
+        "id": "mecsee-129",
+        "name": "Experimental Robotics",
+        "prereq_text": "Prerequisites: some experience with (i) Python programming (CS1, CS2, or equivalent), (ii) Hardware, Sensors, and Signal Processing (EE/ME7, ME8, EE1, or similar), and/or (iii) Robotic Devices (ME13, ME72, or related), as evidenced to the instructor.   Not recommended for first-year students."
+    },
+    "aphee-130": {
+        "id": "aphee-130",
+        "name": "Electromagnetic Theory for Photonic Devices",
+        "prereq_text": ""
+    },
+    "aphee-131": {
+        "id": "aphee-131",
+        "name": "Light Interaction with Atomic Systems-Lasers",
+        "prereq_text": "Prerequisites: APh/EE 130."
+    },
+    "aphee-132": {
+        "id": "aphee-132",
+        "name": "Special Topics in Photonics and Optoelectronics",
+        "prereq_text": ""
+    },
+    "mecsee-133-ab": {
+        "id": "mecsee-133-ab",
+        "name": "Robotics",
+        "prereq_text": "Prerequisites: ME/CS/EE 129, or Python programming experience, evidenced to instructor."
+    },
+    "mecsee-134": {
+        "id": "mecsee-134",
+        "name": "Robotic Systems",
+        "prereq_text": "Prerequisites: ME/CS/EE 133 a, or with permission of instructor."
+    },
+    "eecsest-135": {
+        "id": "eecsest-135",
+        "name": "Power System Analysis",
+        "prereq_text": "Prerequisites: EE 44, Ma 2, or equivalent."
+    },
+    "eemacsids-136": {
+        "id": "eemacsids-136",
+        "name": "Information Theory and Applications",
+        "prereq_text": "Prerequisites: EE 55 or equivalent."
+    },
+    "cseeids-143": {
+        "id": "cseeids-143",
+        "name": "Networks: Algorithms & Architecture",
+        "prereq_text": "Prerequisites: Ma 2, Ma 3, Ma/CS 6 a, and CS 38, or instructor permission."
+    },
+    "cmscsecee-144": {
+        "id": "cmscsecee-144",
+        "name": "Networks: Structure & Economics",
+        "prereq_text": "Prerequisites: Ma 2, Ma 3, Ma/CS 6 a, and CS 38, or instructor permission."
+    },
+    "csee-145": {
+        "id": "csee-145",
+        "name": "Projects in Networking",
+        "prereq_text": "Prerequisites: Either CMS/CS/EE/IDS 144 or CS/IDS 142 in the preceding term, or instructor permission."
+    },
+    "csee-146": {
+        "id": "csee-146",
+        "name": "Control and Optimization of Networks",
+        "prereq_text": "Prerequisites: Ma 2, Ma 3 or instructor's permission."
+    },
+    "eecs-147": {
+        "id": "eecs-147",
+        "name": "Digital Ventures Design",
+        "prereq_text": ""
+    },
+    "eecnscs-148": {
+        "id": "eecnscs-148",
+        "name": "Advanced Topics in Vision: Large Language and Vision Models",
+        "prereq_text": "Prerequisites: CMS/CS/CNS/EE/IDS 155, undergraduate calculus, linear algebra, statistics, computer programming, machine learning. Experience programming in Python, Numpy and PyTorch."
+    },
+    "eeaph-149": {
+        "id": "eeaph-149",
+        "name": "Frontiers of Nonlinear Photonics",
+        "prereq_text": ""
+    },
+    "ee-150": {
+        "id": "ee-150",
+        "name": "Topics in Electrical Engineering",
+        "prereq_text": ""
+    },
+    "ee-151": {
+        "id": "ee-151",
+        "name": "Electromagnetic Engineering",
+        "prereq_text": "Prerequisites: EE 45."
+    },
+    "ee-152": {
+        "id": "ee-152",
+        "name": "High Frequency Systems Laboratory",
+        "prereq_text": "Prerequisites: EE 45 or equivalent. EE 153 recommended."
+    },
+    "ee-153": {
+        "id": "ee-153",
+        "name": "Microwave Circuits and Antennas",
+        "prereq_text": "Prerequisites: EE 45."
+    },
+    "ee-154-ab": {
+        "id": "ee-154-ab",
+        "name": "Practical Electronics for Space Applications",
+        "prereq_text": ""
+    },
+    "cmscscnseeids-155": {
+        "id": "cmscscnseeids-155",
+        "name": "Machine Learning & Data Mining",
+        "prereq_text": "Prerequisites: CS/CNS/EE 156 a. Having a sufficient background in algorithms, linear algebra, calculus, probability, and statistics, is highly recommended."
+    },
+    "cscnsee-156-ab": {
+        "id": "cscnsee-156-ab",
+        "name": "Learning Systems",
+        "prereq_text": "Prerequisites: Ma 2 and CS 2, or equivalent."
+    },
+    "eeae-157-ab": {
+        "id": "eeae-157-ab",
+        "name": "Introduction to the Physics of Remote Sensing",
+        "prereq_text": "Prerequisites: Ph 2 or equivalent."
+    },
+    "geeeese-157-c": {
+        "id": "geeeese-157-c",
+        "name": "Remote Sensing for Environmental and Geological Applications",
+        "prereq_text": ""
+    },
+    "eeaph-158": {
+        "id": "eeaph-158",
+        "name": "Quantum Electrical Circuits",
+        "prereq_text": "Prerequisites: advanced-level familiarity with Maxwell's electromagnetic theory and quantum mechanics (EE 151 and Ph 125 abc, or equivalent)."
+    },
+    "cscnseeids-159": {
+        "id": "cscnseeids-159",
+        "name": "Advanced Topics in Machine Learning",
+        "prereq_text": "Prerequisites: CS 155; strong background in statistics, probability theory, algorithms, and linear algebra; background in optimization is a plus as well."
+    },
+    "eecsids-160": {
+        "id": "eecsids-160",
+        "name": "Fundamentals of Information Transmission and Storage",
+        "prereq_text": "Prerequisites: EE 55 or equivalent."
+    },
+    "eecs-161": {
+        "id": "eecs-161",
+        "name": "Big Data Networks",
+        "prereq_text": "Prerequisites: Linear Algebra ACM/IDS 104 and Introduction to Probability Models ACM/EE/IDS 116 or their equivalents."
+    },
+    "ee-163": {
+        "id": "ee-163",
+        "name": "Communication Theory",
+        "prereq_text": "Prerequisites: EE 111; ACM/EE/IDS 116 or equivalent."
+    },
+    "ee-164": {
+        "id": "ee-164",
+        "name": "Stochastic and Adaptive Signal Processing",
+        "prereq_text": "Prerequisites: ACM/EE/IDS 116 or equivalent."
+    },
+    "cscnseeids-165": {
+        "id": "cscnseeids-165",
+        "name": "Foundations of Machine Learning and Statistical Inference",
+        "prereq_text": "Prerequisites: CMS/ACM/EE 122, ACM/EE/IDS 116, CS 156 a, ACM/CS/IDS 157 or instructor's permission."
+    },
+    "cseeids-166": {
+        "id": "cseeids-166",
+        "name": "Computational Cameras",
+        "prereq_text": "Prerequisites: ACM 104 or ACM 107 or equivalent."
+    },
+    "eecsids-167": {
+        "id": "eecsids-167",
+        "name": "Introduction to Data Compression and Storage",
+        "prereq_text": "Prerequisites: Ma 3 or ACM/EE/IDS 116."
+    },
+    "medeeebe-168-abc": {
+        "id": "medeeebe-168-abc",
+        "name": "Biomedical Optics: Principles and Imaging",
+        "prereq_text": "Prerequisites: instructor's permission."
+    },
+    "mecsee-169": {
+        "id": "mecsee-169",
+        "name": "Mobile Robots",
+        "prereq_text": "Prerequisites: ME/CS/EE 133 b, or with permission of instructor."
+    },
+    "acmeeids-170": {
+        "id": "acmeeids-170",
+        "name": "Mathematics of Signal Processing",
+        "prereq_text": "Prerequisites: ACM/IDS 104, CMS/ACM/EE 122, and ACM/EE/IDS 116; or instructor's permission."
+    },
+    "eecsmede-175": {
+        "id": "eecsmede-175",
+        "name": "Advanced Topics in Digital Design with FPGAs and VHDL",
+        "prereq_text": "Prerequisites: EE/CS/MedE 125 or equivalent."
+    },
+    "esemeesteccheee-179": {
+        "id": "esemeesteccheee-179",
+        "name": "Climate Change Impacts, Mitigation and Adaptation",
+        "prereq_text": ""
+    },
+    "eeaph-180": {
+        "id": "eeaph-180",
+        "name": "Nanotechnology",
+        "prereq_text": ""
+    },
+    "aphee-183": {
+        "id": "aphee-183",
+        "name": "Physics of Semiconductors and Semiconductor Devices",
+        "prereq_text": ""
+    },
+    "eemede-185": {
+        "id": "eemede-185",
+        "name": "Micro/Nano Technology for Semiconductor and Medical Device",
+        "prereq_text": "Prerequisites: APh/EE 9 or instructor's permission."
+    },
+    "cnsbieecsnb-186": {
+        "id": "cnsbieecsnb-186",
+        "name": "Vision: From Computational Theory to Neuronal Mechanisms",
+        "prereq_text": ""
+    },
+    "eemede-187": {
+        "id": "eemede-187",
+        "name": "MEMS/NEMS Technologies for Biomedical Devices",
+        "prereq_text": "Prerequisites: APh/EE 9 or instructor's permission."
+    },
+    "ee-188": {
+        "id": "ee-188",
+        "name": "Computer Architecture",
+        "prereq_text": "Prerequisites: EE/CS 119a or EE/CS/MedE 125 or equivalent."
+    },
+    "beeemede-189-ab": {
+        "id": "beeemede-189-ab",
+        "name": "Design and Construction of Biodevices",
+        "prereq_text": "Prerequisites: BE/EE/MedE 189 a must be taken before BE/EE/MedE 189 b."
+    },
+    "aphee-190-abc": {
+        "id": "aphee-190-abc",
+        "name": "Quantum Electronics",
+        "prereq_text": "Prerequisites: Ph 125 or equivalent."
+    },
+    "medeee-204": {
+        "id": "medeee-204",
+        "name": "Principles and Designs of Medical Neuromodulation Devices",
+        "prereq_text": "Prerequisites: Instructor's permission."
+    },
+    "mecdsee-234-ab": {
+        "id": "mecdsee-234-ab",
+        "name": "Advanced Robotics: Planning",
+        "prereq_text": "Prerequisites: ME/CS/EE 133 b, or equivalent. ME/CS/EE 133 a preferred."
+    },
+    "medeee-268": {
+        "id": "medeee-268",
+        "name": "Medical Imaging",
+        "prereq_text": ""
+    },
+    "ee-291": {
+        "id": "ee-291",
+        "name": "Advanced Work in Electrical Engineering",
+        "prereq_text": ""
+    }
+}

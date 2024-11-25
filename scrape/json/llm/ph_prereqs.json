@@ -1,0 +1,463 @@
+{
+    "ph-1-abc": {
+        "id": "ph-1-abc",
+        "name": "Classical Mechanics and Electromagnetism.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-2-abc": {
+        "id": "ph-2-abc",
+        "name": "Waves, Quantum Mechanics, and Statistical Physics.",
+        "prereq_text": "Prerequisites: Ph 1 abc, Ma 1 abc.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
+    },
+    "ph-3": {
+        "id": "ph-3",
+        "name": "Introductory Physics Laboratory.",
+        "prereq_text": "Prerequisites: Ph 1 a or instructor's permission.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
+    },
+    "fsph-4": {
+        "id": "fsph-4",
+        "name": "First-Year Seminar: Astrophysics and Cosmology with Open Data.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-5": {
+        "id": "ph-5",
+        "name": "Analog Electronics for Physicists.",
+        "prereq_text": "Prerequisites: Ph 1 abc, Ma 1 abc, Ma 2 taken concurrently.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
+    },
+    "ph-6": {
+        "id": "ph-6",
+        "name": "Physics Laboratory.",
+        "prereq_text": "Prerequisites: Ph 2 a or Ph 12 a, Ma 2, Ph 3, Ph 2 b or Ph 12 b (may be taken concurrently), Ma 3 (may be taken concurrently).",
+        "prereqs": [
+            "ph-2-abc",
+            "ph-12-abc",
+            "ph-3"
+        ]
+    },
+    "ph-7": {
+        "id": "ph-7",
+        "name": "Physics Laboratory.",
+        "prereq_text": "Prerequisites: Ph 6, Ph 2 b or Ph 12 b, Ph 2 c or Ph 12 c taken concurrently.",
+        "prereqs": [
+            "ph-6",
+            "ph-2-abc",
+            "ph-12-abc"
+        ]
+    },
+    "ph-8-bc": {
+        "id": "ph-8-bc",
+        "name": "Experiments in Electromagnetism.",
+        "prereq_text": "Prerequisites: Ph 1 a.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
+    },
+    "fsph-9": {
+        "id": "fsph-9",
+        "name": "First-Year Seminar: The Science of Music.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-10": {
+        "id": "ph-10",
+        "name": "Frontiers in Physics.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "fsph-11-abc": {
+        "id": "fsph-11-abc",
+        "name": "First-Year Seminar: Beyond Physics.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-12-abc": {
+        "id": "ph-12-abc",
+        "name": "Waves, Quantum Physics, and Statistical Mechanics.",
+        "prereq_text": "Prerequisites: Ph 1 abc, Ma 1 abc, or equivalents.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
+    },
+    "fsph-15": {
+        "id": "fsph-15",
+        "name": "First-Year Seminar: Quantum Information Science Today and Tomorrow.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-20": {
+        "id": "ph-20",
+        "name": "Computational Physics Laboratory I.",
+        "prereq_text": "Prerequisites: CS 1 or equivalent.",
+        "prereqs": []
+    },
+    "ph-21": {
+        "id": "ph-21",
+        "name": "Computational Physics Laboratory II.",
+        "prereq_text": "Prerequisites: Ph 20 or equivalent experience with programming.",
+        "prereqs": [
+            "ph-20"
+        ]
+    },
+    "ph-22": {
+        "id": "ph-22",
+        "name": "Computational Physics Laboratory III.",
+        "prereq_text": "Prerequisites: Ph 20 or equivalent experience with programming and numerical techniques.",
+        "prereqs": [
+            "ph-20"
+        ]
+    },
+    "ph-50-ab": {
+        "id": "ph-50-ab",
+        "name": "Caltech Physics League.",
+        "prereq_text": "Prerequisites: Ph 1 abc.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
+    },
+    "ph-70": {
+        "id": "ph-70",
+        "name": "Oral and Written Communication.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-77-abc": {
+        "id": "ph-77-abc",
+        "name": "Advanced Physics Laboratory.",
+        "prereq_text": "Prerequisites: Ph 7 or instructor's permission.",
+        "prereqs": [
+            "ph-7"
+        ]
+    },
+    "ph-78-abc": {
+        "id": "ph-78-abc",
+        "name": "Senior Thesis (Experiment).",
+        "prereq_text": "Prerequisites: To register for this course, the student must obtain approval of the chair of the Physics Undergraduate Committee (Ken Libbrecht).",
+        "prereqs": []
+    },
+    "ph-79-abc": {
+        "id": "ph-79-abc",
+        "name": "Senior Thesis (Theory).",
+        "prereq_text": "Prerequisites: To register for this course, the student must obtain approval of the chair of the Physics Undergraduate Committee (Ken Libbrecht).",
+        "prereqs": []
+    },
+    "ph-101": {
+        "id": "ph-101",
+        "name": "Order-of-Magnitude Physics.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ayph-104": {
+        "id": "ayph-104",
+        "name": "Relativistic Astrophysics.",
+        "prereq_text": "Prerequisites: Ph 1, Ph 2 ab.",
+        "prereqs": [
+            "ph-1-abc",
+            "ph-2-abc"
+        ]
+    },
+    "ph-105": {
+        "id": "ph-105",
+        "name": "Analog Electronics for Physicists.",
+        "prereq_text": "Prerequisites: Ph 1 abc, Ma 2, or equivalent.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
+    },
+    "ph-106-abc": {
+        "id": "ph-106-abc",
+        "name": "Topics in Classical Physics.",
+        "prereq_text": "Prerequisites: Ph 2 ab or Ph 12 abc, Ma 2.",
+        "prereqs": [
+            "ph-2-abc",
+            "ph-12-abc"
+        ]
+    },
+    "ph-107": {
+        "id": "ph-107",
+        "name": "Classical and Laser Optics.",
+        "prereq_text": "Prerequisites: Ph 2 ab or Ph 12 ab.",
+        "prereqs": [
+            "ph-2-abc",
+            "ph-12-abc"
+        ]
+    },
+    "aphph-112": {
+        "id": "aphph-112",
+        "name": "Stochastic Resonance Phenomena and the Essential Role of Noise.",
+        "prereq_text": "Prerequisites: Ph 12 abc, ACM 95/100 ab and Ph 106 abc, equivalent background, or instructor's permission.",
+        "prereqs": [
+            "ph-12-abc",
+            "ph-106-abc"
+        ]
+    },
+    "phaphee-118-c": {
+        "id": "phaphee-118-c",
+        "name": "Physics of Measurement: Moonbounce and Beyond - Microwave Scattering for Communications and Metrology.",
+        "prereq_text": "Prerequisites: Ph 118a, and a course in microwave physics and engineering (e.g., Ph 118b, EE 153, or equivalent), or permission from the instructor.",
+        "prereqs": [
+            "phapheebe-118-ab"
+        ]
+    },
+    "phapheebe-118-ab": {
+        "id": "phapheebe-118-ab",
+        "name": "Physics of Measurement.",
+        "prereq_text": "Prerequisites: Ph 127, APh 105, or equivalent, or permission from instructor.",
+        "prereqs": [
+            "ph-127-ab"
+        ]
+    },
+    "csph-120": {
+        "id": "csph-120",
+        "name": "Quantum Cryptography.",
+        "prereq_text": "Prerequisites: Ma 1 b, Ph 2 b or Ph 12 b, CS 21, CS 38 or equivalent recommended (or instructor's permission).",
+        "prereqs": [
+            "ph-2-abc",
+            "ph-12-abc"
+        ]
+    },
+    "ph-121-abc": {
+        "id": "ph-121-abc",
+        "name": "Computational Physics Lab.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-125-abc": {
+        "id": "ph-125-abc",
+        "name": "Quantum Mechanics.",
+        "prereq_text": "Prerequisites: Ma 2 ab, Ph 12 abc or Ph 2 ab, or equivalents.",
+        "prereqs": [
+            "ph-12-abc",
+            "ph-2-abc"
+        ]
+    },
+    "ph-127-ab": {
+        "id": "ph-127-ab",
+        "name": "Statistical Physics of Interacting Systems, Phases, and Phase Transitions.",
+        "prereq_text": "Prerequisites: Ph 12 c or equivalent; quantum mechanics at the level of Ph 125 ab is required for Ph 127 b; may be taken concurrently.",
+        "prereqs": [
+            "ph-12-abc",
+            "ph-125-abc"
+        ]
+    },
+    "ph-129-abc": {
+        "id": "ph-129-abc",
+        "name": "Mathematical Methods of Physics.",
+        "prereq_text": "Prerequisites: Ma 2 and Ph 2 abc, or equivalent.",
+        "prereqs": [
+            "ph-2-abc"
+        ]
+    },
+    "ph-135": {
+        "id": "ph-135",
+        "name": "Introduction to Condensed Matter.",
+        "prereq_text": "Prerequisites: Ph 125 ab or equivalent or instructor's permission.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
+    },
+    "ph-136-abc": {
+        "id": "ph-136-abc",
+        "name": "Applications of Classical Physics.",
+        "prereq_text": "Prerequisites: Ph 106 ab or equivalent.",
+        "prereqs": [
+            "ph-106-abc"
+        ]
+    },
+    "phaph-137-abc": {
+        "id": "phaph-137-abc",
+        "name": "Atoms and Photons.",
+        "prereq_text": "Prerequisites: Ph 125 ab or equivalent, or instructor's permission.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
+    },
+    "aphph-138-ab": {
+        "id": "aphph-138-ab",
+        "name": "Quantum Hardware and Techniques.",
+        "prereq_text": "Prerequisites: Ph 125 abc or Ph 127 ab or Ph 137 ab or instructor's permission.",
+        "prereqs": [
+            "ph-125-abc",
+            "ph-127-ab",
+            "phaph-137-abc"
+        ]
+    },
+    "ph-139": {
+        "id": "ph-139",
+        "name": "Introduction to Elementary Particle Physics.",
+        "prereq_text": "Prerequisites: Ph 125 ab or equivalent, or instructor's permission.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
+    },
+    "aphphms-152": {
+        "id": "aphphms-152",
+        "name": "Fundamentals of Fluid Flow in Small Scale Systems.",
+        "prereq_text": "Prerequisites: ACM 95/100 ab or equivalent.",
+        "prereqs": []
+    },
+    "aphphaems-153": {
+        "id": "aphphaems-153",
+        "name": "Fundamentals of Energy and Mass Transport in Small Scale Systems.",
+        "prereq_text": "Prerequisites: ACM 95/100 ab or equivalent.",
+        "prereqs": []
+    },
+    "ph-171": {
+        "id": "ph-171",
+        "name": "Reading and Independent Study.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-172": {
+        "id": "ph-172",
+        "name": "Research in Physics.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-177": {
+        "id": "ph-177",
+        "name": "Advanced Experimental Physics.",
+        "prereq_text": "Prerequisites: Ph 6, Ph 106 a, Ph 125 a or equivalents.",
+        "prereqs": [
+            "ph-6",
+            "ph-106-abc",
+            "ph-125-abc"
+        ]
+    },
+    "cnsbiphcsnb-187": {
+        "id": "cnsbiphcsnb-187",
+        "name": "Neural Computation.",
+        "prereq_text": "Prerequisites: introductory neuroscience (Bi 150 or equivalent); mathematical methods (Bi 195 or equivalent); scientific programming.",
+        "prereqs": []
+    },
+    "ph-198": {
+        "id": "ph-198",
+        "name": "Special Topics in Physics.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-201": {
+        "id": "ph-201",
+        "name": "Candidacy Physics Fitness.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-203": {
+        "id": "ph-203",
+        "name": "Nuclear Physics.",
+        "prereq_text": "Prerequisites: Ph 125 or equivalent.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
+    },
+    "ph-205-abc": {
+        "id": "ph-205-abc",
+        "name": "Relativistic Quantum Field Theory.",
+        "prereq_text": "Prerequisites: Ph 125.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
+    },
+    "phcs-219-abc": {
+        "id": "phcs-219-abc",
+        "name": "Quantum Computation.",
+        "prereq_text": "Prerequisites: Ph 125 ab or equivalent.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
+    },
+    "phaph-223-ab": {
+        "id": "phaph-223-ab",
+        "name": "Advanced Condensed-Matter Physics.",
+        "prereq_text": "Prerequisites: Ph 135 or equivalent, or instructor's permission.",
+        "prereqs": [
+            "ph-135"
+        ]
+    },
+    "ph-229-abc": {
+        "id": "ph-229-abc",
+        "name": "Advanced Mathematical Methods of Physics.",
+        "prereq_text": "Prerequisites: Ph 129 abc or equivalent.",
+        "prereqs": [
+            "ph-129-abc"
+        ]
+    },
+    "ph-230-abc": {
+        "id": "ph-230-abc",
+        "name": "Elementary Particle Theory.",
+        "prereq_text": "Prerequisites: Ph 205 abc or equivalent.",
+        "prereqs": [
+            "ph-205-abc"
+        ]
+    },
+    "ph-231-ab": {
+        "id": "ph-231-ab",
+        "name": "Advanced Topics in Statistical Mechanics.",
+        "prereq_text": "Prerequisites: Ph 127 or equivalent.",
+        "prereqs": [
+            "ph-127-ab"
+        ]
+    },
+    "ph-232": {
+        "id": "ph-232",
+        "name": "Introduction to Topological Field Theory.",
+        "prereq_text": "Prerequisites: Ph 205.",
+        "prereqs": [
+            "ph-205-abc"
+        ]
+    },
+    "ph-235-ab": {
+        "id": "ph-235-ab",
+        "name": "Theoretical Cosmology and Astroparticle Physics.",
+        "prereq_text": "Prerequisites: General Relativity at the level of Ph 236 a, and Quantum Field Theory at the level of Ph 205 a.",
+        "prereqs": [
+            "ph-236-abc",
+            "ph-205-abc"
+        ]
+    },
+    "ph-236-abc": {
+        "id": "ph-236-abc",
+        "name": "General Relativity.",
+        "prereq_text": "Prerequisites: a mastery of special relativity at the level of Goldstein's Classical Mechanics, or of Jackson's Classical Electrodynamics.",
+        "prereqs": []
+    },
+    "ph-237": {
+        "id": "ph-237",
+        "name": "Gravitational Radiation.",
+        "prereq_text": "Prerequisites: Ph 106 b, Ph 12 b or equivalents.",
+        "prereqs": [
+            "ph-106-abc",
+            "ph-12-abc"
+        ]
+    },
+    "ph-242-ab": {
+        "id": "ph-242-ab",
+        "name": "Physics Seminar.",
+        "prereq_text": "",
+        "prereqs": []
+    },
+    "ph-250-ab": {
+        "id": "ph-250-ab",
+        "name": "Introduction to String Theory.",
+        "prereq_text": "Prerequisites: Ph 205 or equivalent.",
+        "prereqs": [
+            "ph-205-abc"
+        ]
+    },
+    "ph-300": {
+        "id": "ph-300",
+        "name": "Thesis Research.",
+        "prereq_text": "",
+        "prereqs": []
+    }
+}

@@ -1,617 +1,771 @@
 {
     "cs-1": {
+        "id": "cs-1",
         "name": "Introduction to Computer Programming",
         "prereq_text": ""
     },
     "cs-1-x": {
+        "id": "cs-1-x",
         "name": "Intermediate Computer Programming",
         "prereq_text": "Prerequisites: Enrollment by instructor permission only."
     },
     "cs-2": {
+        "id": "cs-2",
         "name": "Introduction to Programming Methods",
         "prereq_text": "Prerequisites: CS 1 or equivalent."
     },
     "cs-3": {
+        "id": "cs-3",
         "name": "Introduction to Software Design",
         "prereq_text": "Prerequisites: CS 2 or equivalent."
     },
     "cs-4": {
+        "id": "cs-4",
         "name": "Fundamentals of Computer Programming",
         "prereq_text": "Prerequisites: CS 1 or instructor's permission."
     },
     "macs-6106-abc": {
+        "id": "macs-6106-abc",
         "name": "Introduction to Discrete Mathematics",
         "prereq_text": "Prerequisites: for Ma/CS 6 c, Ma/CS 6 a or Ma 5 a or instructor's permission."
     },
     "cms-9": {
+        "id": "cms-9",
         "name": "Introduction to Computer Science Research",
         "prereq_text": ""
     },
     "ids-9": {
+        "id": "ids-9",
         "name": "Introduction to Information and Data Systems Research",
         "prereq_text": ""
     },
     "eecs-10-ab": {
+        "id": "eecs-10-ab",
         "name": "Introduction to Digital Logic and Embedded Systems",
         "prereq_text": ""
     },
     "acm-11": {
+        "id": "acm-11",
         "name": "Introduction to Computational Science and Engineering",
         "prereq_text": "Prerequisites: Ma 1 ab, Co-requisite Ma 1 c. CS 1 or prior programming experience recommended."
     },
     "cs-11": {
+        "id": "cs-11",
         "name": "Computer Language Lab",
         "prereq_text": "Prerequisites: CS 1 or instructor's permission."
     },
     "cs-12": {
+        "id": "cs-12",
         "name": "Student-Taught Topics in Computing",
         "prereq_text": "Prerequisites: CS 1 or instructor's permission."
     },
     "cs-13": {
+        "id": "cs-13",
         "name": "Mathematical Foundations of Computer Science",
         "prereq_text": "Prerequisites: CS 1."
     },
     "cs-19-ab": {
+        "id": "cs-19-ab",
         "name": "Introduction to Computer Science in Industry",
         "prereq_text": ""
     },
     "cs-21": {
+        "id": "cs-21",
         "name": "Decidability and Tractability",
         "prereq_text": "Prerequisites: CS 2 (may be taken concurrently)."
     },
     "cs-22": {
+        "id": "cs-22",
         "name": "Data Structures & Parallelism",
         "prereq_text": "Prerequisites: CS 2 or instructor's permission."
     },
     "cs-24": {
+        "id": "cs-24",
         "name": "Introduction to Computing Systems",
         "prereq_text": "Prerequisites: CS 2 and CS 3."
     },
     "cs-38": {
+        "id": "cs-38",
         "name": "Algorithms",
         "prereq_text": "Prerequisites: CS 2; Ma/CS 6 a or Ma 121 a; and CS 21."
     },
     "cs-42": {
+        "id": "cs-42",
         "name": "Computer Science Education in K-14 Settings",
         "prereq_text": ""
     },
     "cseeme-75-abc": {
+        "id": "cseeme-75-abc",
         "name": "Multidisciplinary Systems Engineering",
         "prereq_text": ""
     },
     "acm-80-abc": {
+        "id": "acm-80-abc",
         "name": "Undergraduate Thesis",
         "prereq_text": "Prerequisites: instructor's permission, which should be obtained sufficiently early to allow time for planning the research."
     },
     "cs-80-abc": {
+        "id": "cs-80-abc",
         "name": "Undergraduate Thesis",
         "prereq_text": "Prerequisites: instructor's permission, which should be obtained sufficiently early to allow time for planning the research."
     },
     "acm-81-abc": {
+        "id": "acm-81-abc",
         "name": "Undergraduate Projects in Applied and Computational Mathematics",
         "prereq_text": "Prerequisites: Consent of supervisor is required before registering."
     },
     "cs-81-abc": {
+        "id": "cs-81-abc",
         "name": "Undergraduate Projects in Computer Science",
         "prereq_text": "Prerequisites: Consent of supervisor is required before registering."
     },
     "cds-90-abc": {
+        "id": "cds-90-abc",
         "name": "Senior Thesis in Control and Dynamical Systems",
         "prereq_text": "Prerequisites: CDS 110 or CDS 112 (may be taken concurrently)."
     },
     "cs-90": {
+        "id": "cs-90",
         "name": "Undergraduate Reading in Computer Science",
         "prereq_text": "Prerequisites: Consent of supervisor is required before registering."
     },
     "acm-95100-ab": {
+        "id": "acm-95100-ab",
         "name": "Introductory Methods of Applied Mathematics for the Physical Sciences",
         "prereq_text": "Prerequisites: Ma 1 abc, Ma 2 or equivalents."
     },
     "acmids-101-ab": {
+        "id": "acmids-101-ab",
         "name": "Methods of Applied Mathematics",
         "prereq_text": "Prerequisites: Math 2/102 and ACM 95 ab or equivalent."
     },
     "cs-101": {
+        "id": "cs-101",
         "name": "Special Topics in Computer Science",
         "prereq_text": "Prerequisites: Prerequisites specified by instructor."
     },
     "cs-102-abc": {
+        "id": "cs-102-abc",
         "name": "Seminar in Computer Science",
         "prereq_text": ""
     },
     "cs-103-abc": {
+        "id": "cs-103-abc",
         "name": "Reading in Computer Science",
         "prereq_text": ""
     },
     "acmids-104": {
+        "id": "acmids-104",
         "name": "Applied Linear Algebra",
         "prereq_text": "Prerequisites: Ma 1 abc, some familiarity with MATLAB, e.g. ACM 11 is desired."
     },
     "acmee-106-ab": {
+        "id": "acmee-106-ab",
         "name": "Introductory Methods of Computational Mathematics",
         "prereq_text": "Prerequisites: For ACM/EE 106 a, Ma 1 abc, Ma 2, Ma 3, ACM 11; for ACM/EE 106 b, ACM 95/100 ab or equivalent."
     },
     "cmsacmids-107-ab": {
+        "id": "cmsacmids-107-ab",
         "name": "Linear Analysis with Applications",
         "prereq_text": "Prerequisites: ACM/IDS 104 or equivalent, Ma 1b or equivalent."
     },
     "acm-109": {
+        "id": "acm-109",
         "name": "Mathematical Modelling",
         "prereq_text": ""
     },
     "cds-110": {
+        "id": "cds-110",
         "name": "Analysis and Design of Feedback Control Systems",
         "prereq_text": "Prerequisites: Ma 1 abc and Ma 2/102 or equivalents."
     },
     "hpsplcs-110": {
+        "id": "hpsplcs-110",
         "name": "Causation and Explanation",
         "prereq_text": ""
     },
     "cs-111": {
+        "id": "cs-111",
         "name": "Graduate Programming Practicum",
         "prereq_text": "Prerequisites: CS 1 or equivalent."
     },
     "ecacmcs-112": {
+        "id": "ecacmcs-112",
         "name": "Bayesian Statistics",
         "prereq_text": "Prerequisites: Ma 3, ACM/EE/IDS 116 or equivalent."
     },
     "cs-115": {
+        "id": "cs-115",
         "name": "Functional Programming",
         "prereq_text": "Prerequisites: CS 1 and CS 4."
     },
     "acmeeids-116": {
+        "id": "acmeeids-116",
         "name": "Introduction to Probability Models",
         "prereq_text": "Prerequisites: Ma 3 or EE 55, some familiarity with MATLAB, e.g. ACM 11, is desired."
     },
     "cs-116": {
+        "id": "cs-116",
         "name": "Reasoning about Program Correctness",
         "prereq_text": "Prerequisites: CS 1 or equivalent."
     },
     "cmsacm-117": {
+        "id": "cmsacm-117",
         "name": "Probability Theory and Computational Mathematics",
         "prereq_text": "Prerequisites: ACM 104 and ACM 116; or instructor's permission."
     },
     "macs-117-abc": {
+        "id": "macs-117-abc",
         "name": "Computability Theory",
         "prereq_text": "Prerequisites: Ma 5 or equivalent, or instructor's permission."
     },
     "acm-118": {
+        "id": "acm-118",
         "name": "Stochastic Processes and Regression",
         "prereq_text": "Prerequisites: CMS/ACM/IDS 107 or equivalent, ACM 116 or equivalent, or permission of the instructor."
     },
     "cs-118": {
+        "id": "cs-118",
         "name": "Automata-Theoretic Software Analysis",
         "prereq_text": ""
     },
     "eecs-119-abc": {
+        "id": "eecs-119-abc",
         "name": "Advanced Digital Systems Design",
         "prereq_text": "Prerequisites: EE/CS 10 a or CS 24."
     },
     "csph-120": {
+        "id": "csph-120",
         "name": "Quantum Cryptography",
         "prereq_text": "Prerequisites: Ma 1 b, Ph 2 b or Ph 12 b, CS 21, CS 38 or equivalent recommended (or instructor's permission)."
     },
     "csids-121": {
+        "id": "csids-121",
         "name": "Relational Databases",
         "prereq_text": "Prerequisites: CS 1 or equivalent."
     },
     "cmsacmee-122": {
+        "id": "cmsacmee-122",
         "name": "Mathematical Optimization",
         "prereq_text": "Prerequisites: ACM 11 and ACM 104, or instructor's permission."
     },
     "cs-124": {
+        "id": "cs-124",
         "name": "Operating Systems",
         "prereq_text": "Prerequisites: CS 24."
     },
     "eecsmede-125": {
+        "id": "eecsmede-125",
         "name": "Digital Circuit Design with FPGAs and VHDL",
         "prereq_text": "Prerequisites: EE/CS 10 or equivalent."
     },
     "eemacs-126-ab": {
+        "id": "eemacs-126-ab",
         "name": "Information Theory",
         "prereq_text": "Prerequisites: Ma 3."
     },
     "idsecps-126": {
+        "id": "idsecps-126",
         "name": "Applied Data Analysis",
         "prereq_text": "Prerequisites: Ma 3/103 or ACM/EE/IDS 116, Ec 122 or IDS/ACM/CS 157 or Ma 112 a."
     },
     "amacm-127": {
+        "id": "amacm-127",
         "name": "Calculus of Variations",
         "prereq_text": "Prerequisites: ACM 95/100."
     },
     "eemacsids-127": {
+        "id": "eemacsids-127",
         "name": "Error-Correcting Codes",
         "prereq_text": "Prerequisites: EE 55 or equivalent."
     },
     "cs-128": {
+        "id": "cs-128",
         "name": "Interactive Theorem Proving",
         "prereq_text": "Prerequisites: CS 4 or instructor's permission."
     },
     "mecsee-129": {
+        "id": "mecsee-129",
         "name": "Experimental Robotics",
         "prereq_text": "Prerequisites: some experience with (i) Python programming (CS1, CS2, or equivalent), (ii) Hardware, Sensors, and Signal Processing (EE/ME7, ME8, EE1, or similar), and/or (iii) Robotic Devices (ME13, ME72, or related), as evidenced to the instructor.   Not recommended for first-year students."
     },
     "cs-130": {
+        "id": "cs-130",
         "name": "Software Engineering",
         "prereq_text": "Prerequisites: CS 2 and CS 3 (or equivalent)."
     },
     "cds-131": {
+        "id": "cds-131",
         "name": "Linear Systems Theory",
         "prereq_text": "Prerequisites: Ma 1 b, Ma 2, ACM/IDS 104 or equivalent (may be taken concurrently)."
     },
     "cs-131": {
+        "id": "cs-131",
         "name": "Programming Languages",
         "prereq_text": "Prerequisites: CS 4."
     },
     "cs-132": {
+        "id": "cs-132",
         "name": "Web Development",
         "prereq_text": "Prerequisites: CS 1 or equivalent."
     },
     "mecsee-133-ab": {
+        "id": "mecsee-133-ab",
         "name": "Robotics",
         "prereq_text": "Prerequisites: ME/CS/EE 129, or Python programming experience, evidenced to instructor."
     },
     "mecsee-134": {
+        "id": "mecsee-134",
         "name": "Robotic Systems",
         "prereq_text": "Prerequisites: ME/CS/EE 133 a, or with permission of instructor."
     },
     "eecsest-135": {
+        "id": "eecsest-135",
         "name": "Power System Analysis",
         "prereq_text": "Prerequisites: EE 44, Ma 2, or equivalent."
     },
     "eemacsids-136": {
+        "id": "eemacsids-136",
         "name": "Information Theory and Applications",
         "prereq_text": "Prerequisites: EE 55 or equivalent."
     },
     "cs-137": {
+        "id": "cs-137",
         "name": "Real-World Algorithm Implementation",
         "prereq_text": "Prerequisites: CS 24."
     },
     "cs-138": {
+        "id": "cs-138",
         "name": "Computer Algorithms",
         "prereq_text": ""
     },
     "cmscsids-139": {
+        "id": "cmscsids-139",
         "name": "Analysis and Design of Algorithms",
         "prereq_text": "Prerequisites: Ma 2, Ma 3, Ma/CS 6 a, CS 21, CS 38/138, and ACM/EE/IDS 116 or CMS/ACM/EE 122 or equivalent."
     },
     "maacmids-140-abc": {
+        "id": "maacmids-140-abc",
         "name": "Probability",
         "prereq_text": "Prerequisites: For 140 a, Ma 108 b is strongly recommended."
     },
     "cs-141": {
+        "id": "cs-141",
         "name": "Hack Society: Projects from the Public Sector",
         "prereq_text": "Prerequisites: CS/IDS 142, 143, CMS/CS/EE/IDS 144, or permission from instructor."
     },
     "maacm-142-ab": {
+        "id": "maacm-142-ab",
         "name": "Ordinary and Partial Differential Equations",
         "prereq_text": "Prerequisites: Ma 108; Ma 109 is desirable."
     },
     "cseeids-143": {
+        "id": "cseeids-143",
         "name": "Networks: Algorithms & Architecture",
         "prereq_text": "Prerequisites: Ma 2, Ma 3, Ma/CS 6 a, and CS 38, or instructor permission."
     },
     "cmscsecee-144": {
+        "id": "cmscsecee-144",
         "name": "Networks: Structure & Economics",
         "prereq_text": "Prerequisites: Ma 2, Ma 3, Ma/CS 6 a, and CS 38, or instructor permission."
     },
     "csee-145": {
+        "id": "csee-145",
         "name": "Projects in Networking",
         "prereq_text": "Prerequisites: Either CMS/CS/EE/IDS 144 or CS/IDS 142 in the preceding term, or instructor permission."
     },
     "csee-146": {
+        "id": "csee-146",
         "name": "Control and Optimization of Networks",
         "prereq_text": "Prerequisites: Ma 2, Ma 3 or instructor's permission."
     },
     "eecs-147": {
+        "id": "eecs-147",
         "name": "Digital Ventures Design",
         "prereq_text": ""
     },
     "eecnscs-148": {
+        "id": "eecnscs-148",
         "name": "Advanced Topics in Vision: Large Language and Vision Models",
         "prereq_text": "Prerequisites: CMS/CS/CNS/EE/IDS 155, undergraduate calculus, linear algebra, statistics, computer programming, machine learning. Experience programming in Python, Numpy and PyTorch."
     },
     "csec-149": {
+        "id": "csec-149",
         "name": "Algorithmic Economics",
         "prereq_text": ""
     },
     "csids-150-ab": {
+        "id": "csids-150-ab",
         "name": "Probability and Algorithms",
         "prereq_text": "Prerequisites: part a: CS 38 and Ma 5 abc; part b: part a or another introductory course in discrete probability."
     },
     "cs-151": {
+        "id": "cs-151",
         "name": "Complexity Theory",
         "prereq_text": "Prerequisites: CS 21 and CS 38, or instructor's permission."
     },
     "cs-152": {
+        "id": "cs-152",
         "name": "Introduction to Cryptography",
         "prereq_text": "Prerequisites: Ma 1 b, CS 21, CS 38 or equivalent recommended."
     },
     "csids-153": {
+        "id": "csids-153",
         "name": "Current Topics in Theoretical Computer Science",
         "prereq_text": "Prerequisites: CS 21 and CS 38, or instructor's permission."
     },
     "acmids-154": {
+        "id": "acmids-154",
         "name": "Inverse Problems and Data Assimilation",
         "prereq_text": "Prerequisites: Basic differential equations, linear algebra, probability and statistics: ACM/IDS 104, ACM/EE 106 ab, ACM/EE/IDS 116, IDS/ACM/CS 157 or equivalent."
     },
     "cmscscnseeids-155": {
+        "id": "cmscscnseeids-155",
         "name": "Machine Learning & Data Mining",
         "prereq_text": "Prerequisites: CS/CNS/EE 156 a. Having a sufficient background in algorithms, linear algebra, calculus, probability, and statistics, is highly recommended."
     },
     "cscnsee-156-ab": {
+        "id": "cscnsee-156-ab",
         "name": "Learning Systems",
         "prereq_text": "Prerequisites: Ma 2 and CS 2, or equivalent."
     },
     "idsacmcs-157": {
+        "id": "idsacmcs-157",
         "name": "Statistical Inference",
         "prereq_text": "Prerequisites: ACM/EE/IDS 116, Ma 3."
     },
     "idsacmcs-158": {
+        "id": "idsacmcs-158",
         "name": "Fundamentals of Statistical Learning",
         "prereq_text": "Prerequisites: ACM/IDS 104, ACM/EE/IDS 116, IDS/ACM/CS 157."
     },
     "cscnseeids-159": {
+        "id": "cscnseeids-159",
         "name": "Advanced Topics in Machine Learning",
         "prereq_text": "Prerequisites: CS 155; strong background in statistics, probability theory, algorithms, and linear algebra; background in optimization is a plus as well."
     },
     "eecsids-160": {
+        "id": "eecsids-160",
         "name": "Fundamentals of Information Transmission and Storage",
         "prereq_text": "Prerequisites: EE 55 or equivalent."
     },
     "eecs-161": {
+        "id": "eecs-161",
         "name": "Big Data Networks",
         "prereq_text": "Prerequisites: Linear Algebra ACM/IDS 104 and Introduction to Probability Models ACM/EE/IDS 116 or their equivalents."
     },
     "csids-162": {
+        "id": "csids-162",
         "name": "Data, Algorithms and Society",
         "prereq_text": "Prerequisites: CS 38 and CS 155 or 156 a."
     },
     "cs-163": {
+        "id": "cs-163",
         "name": "Projects in Machine Learning",
         "prereq_text": "Prerequisites: CS 155 or equivalent."
     },
     "cs-164": {
+        "id": "cs-164",
         "name": "Compilers",
         "prereq_text": "Prerequisites: CS 4 or instructor's permission. CS 24 and CS 131 are strongly recommended but not required. Limit 20 students."
     },
     "cscnseeids-165": {
+        "id": "cscnseeids-165",
         "name": "Foundations of Machine Learning and Statistical Inference",
         "prereq_text": "Prerequisites: CMS/ACM/EE 122, ACM/EE/IDS 116, CS 156 a, ACM/CS/IDS 157 or instructor's permission."
     },
     "cseeids-166": {
+        "id": "cseeids-166",
         "name": "Computational Cameras",
         "prereq_text": "Prerequisites: ACM 104 or ACM 107 or equivalent."
     },
     "eecsids-167": {
+        "id": "eecsids-167",
         "name": "Introduction to Data Compression and Storage",
         "prereq_text": "Prerequisites: Ma 3 or ACM/EE/IDS 116."
     },
     "mecsee-169": {
+        "id": "mecsee-169",
         "name": "Mobile Robots",
         "prereq_text": "Prerequisites: ME/CS/EE 133 b, or with permission of instructor."
     },
     "acmeeids-170": {
+        "id": "acmeeids-170",
         "name": "Mathematics of Signal Processing",
         "prereq_text": "Prerequisites: ACM/IDS 104, CMS/ACM/EE 122, and ACM/EE/IDS 116; or instructor's permission."
     },
     "cscns-171": {
+        "id": "cscns-171",
         "name": "Computer Graphics Laboratory",
         "prereq_text": "Prerequisites: Extensive programming experience and proficiency in linear algebra, starting with CS 2 and Ma 1 b."
     },
     "csids-172": {
+        "id": "csids-172",
         "name": "Distributed Computing",
         "prereq_text": "Prerequisites: CS 24, CS 38."
     },
     "cscns-174": {
+        "id": "cscns-174",
         "name": "Computer Graphics Projects",
         "prereq_text": "Prerequisites: Extensive programming experience, CS/CNS 171 or instructor's permission."
     },
     "eecsmede-175": {
+        "id": "eecsmede-175",
         "name": "Advanced Topics in Digital Design with FPGAs and VHDL",
         "prereq_text": "Prerequisites: EE/CS/MedE 125 or equivalent."
     },
     "cs-176": {
+        "id": "cs-176",
         "name": "Computer Graphics Research",
         "prereq_text": "Prerequisites: CS/CNS 171, or 173, or 174."
     },
     "csacm-177-ab": {
+        "id": "csacm-177-ab",
         "name": "Discrete Differential Geometry: Theory and Applications",
         "prereq_text": ""
     },
     "csids-178": {
+        "id": "csids-178",
         "name": "Numerical Algorithms and their Implementation",
         "prereq_text": "Prerequisites: CS 2."
     },
     "cs-179": {
+        "id": "cs-179",
         "name": "GPU Programming",
         "prereq_text": "Prerequisites: Good working knowledge of C/C++."
     },
     "acmids-180-ab": {
+        "id": "acmids-180-ab",
         "name": "Multiscale Modeling",
         "prereq_text": "Prerequisites: CMS 107, CMS 117 or explicit email permission from instructor."
     },
     "cs-180": {
+        "id": "cs-180",
         "name": "Master\u2019s Thesis Research",
         "prereq_text": ""
     },
     "bibecs-183": {
+        "id": "bibecs-183",
         "name": "Introduction to Computational Biology and Bioinformatics",
         "prereq_text": "Prerequisites: Bi 8, CS 2, Ma 3; or BE/Bi 103 a; or instructor's permission."
     },
     "cnsbieecsnb-186": {
+        "id": "cnsbieecsnb-186",
         "name": "Vision: From Computational Theory to Neuronal Mechanisms",
         "prereq_text": ""
     },
     "cnsbiphcsnb-187": {
+        "id": "cnsbiphcsnb-187",
         "name": "Neural Computation",
         "prereq_text": "Prerequisites: introductory neuroscience (Bi 150 or equivalent); mathematical methods (Bi 195 or equivalent); scientific programming."
     },
     "acm-190": {
+        "id": "acm-190",
         "name": "Reading and Independent Study",
         "prereq_text": ""
     },
     "cds-190": {
+        "id": "cds-190",
         "name": "Independent Work in Control and Dynamical Systems",
         "prereq_text": "Prerequisites: CDS 110."
     },
     "becscnsbi-191-ab": {
+        "id": "becscnsbi-191-ab",
         "name": "Biomolecular Computation",
         "prereq_text": "Prerequisites: None. Recommended: BE/ChE 163, CS 21, or equivalent."
     },
     "becs-196-ab": {
+        "id": "becs-196-ab",
         "name": "Design and Construction of Programmable Molecular Systems",
         "prereq_text": "Prerequisites: none."
     },
     "ids-197": {
+        "id": "ids-197",
         "name": "Undergraduate Reading in the Information and Data Sciences",
         "prereq_text": "Prerequisites: Consent of supervisor is required before registering."
     },
     "ids-198": {
+        "id": "ids-198",
         "name": "Undergraduate Projects in Information and Data Sciences",
         "prereq_text": "Prerequisites: Consent of supervisor is required before registering."
     },
     "ids-199": {
+        "id": "ids-199",
         "name": "Undergraduate thesis in the Information and Data Sciences",
         "prereq_text": "Prerequisites: instructor's permission, which should be obtained sufficiently early to allow time for planning the research."
     },
     "acm-201": {
+        "id": "acm-201",
         "name": "Partial Differential Equations",
         "prereq_text": "Prerequisites: ACM 95/100 ab, ACM/IDS 101 ab, ACM 11 or equivalent."
     },
     "acmids-204": {
+        "id": "acmids-204",
         "name": "Topics in Linear Algebra and Convexity",
         "prereq_text": "Prerequisites: CMS 107a and CMS/ACM 122; or instructor's permission."
     },
     "acm-206": {
+        "id": "acm-206",
         "name": "Topics in Computational Mathematics",
         "prereq_text": "Prerequisites: ACM 106 ab; linear algebra at the level of ACM 104 or ACM 107; probability theory at the level of ACM 116 or ACM 117; some programming experience."
     },
     "acm-210": {
+        "id": "acm-210",
         "name": "Numerical Methods for PDEs",
         "prereq_text": "Prerequisites: ACM 11, 106 or instructor's permission."
     },
     "cds-212": {
+        "id": "cds-212",
         "name": "Optimal Control and Estimation",
         "prereq_text": "Prerequisites: CDS 110 (or equivalent) and CDS 131."
     },
     "acmids-213": {
+        "id": "acmids-213",
         "name": "Topics in Optimization",
         "prereq_text": "Prerequisites: ACM/IDS 104, CMS/ACM/EE 122."
     },
     "acmids-216": {
+        "id": "acmids-216",
         "name": "Markov Chains, Discrete Stochastic Processes and Applications",
         "prereq_text": "Prerequisites: ACM/EE/IDS 116 or equivalent."
     },
     "acm-217": {
+        "id": "acm-217",
         "name": "Advanced Topics in Probability",
         "prereq_text": "Prerequisites: CMS 107a and CMS/ACM 117; or instructor's permission."
     },
     "phcs-219-abc": {
+        "id": "phcs-219-abc",
         "name": "Quantum Computation",
         "prereq_text": "Prerequisites: Ph 125 ab or equivalent."
     },
     "cds-231": {
+        "id": "cds-231",
         "name": "Robust Control Theory",
         "prereq_text": "Prerequisites: CMS/ACM/IDS 107, CMS/ACM/EE 122, and CDS 131 (or equivalents)."
     },
     "aeacmme-232-ab": {
+        "id": "aeacmme-232-ab",
         "name": "Computational Fluid Dynamics",
         "prereq_text": "Prerequisites: Ae/APh/CE/ME 101 abc or equivalent; ACM 100 ab or equivalent; ACM 104."
     },
     "cds-232": {
+        "id": "cds-232",
         "name": "Nonlinear Dynamics",
         "prereq_text": "Prerequisites: CMS/ACM/IDS 107 and CDS 231."
     },
     "cds-233": {
+        "id": "cds-233",
         "name": "Nonlinear Control",
         "prereq_text": "Prerequisites: CDS 231 and CDS 232."
     },
     "mecdsee-234-ab": {
+        "id": "mecdsee-234-ab",
         "name": "Advanced Robotics: Planning",
         "prereq_text": "Prerequisites: ME/CS/EE 133 b, or equivalent. ME/CS/EE 133 a preferred."
     },
     "mecds-235-ab": {
+        "id": "mecds-235-ab",
         "name": "Advanced Robotics: Kinematics",
         "prereq_text": "Prerequisites: ME/CS/EE 133 a, or equivalent."
     },
     "cds-242": {
+        "id": "cds-242",
         "name": "Hybrid Systems: Dynamics and Control",
         "prereq_text": "Prerequisites: CDS 231 and CDS 232."
     },
     "cds-243": {
+        "id": "cds-243",
         "name": "Adaptive Control",
         "prereq_text": "Prerequisites: CDS 231 and CDS 232."
     },
     "cds-244": {
+        "id": "cds-244",
         "name": "System Identification",
         "prereq_text": "Prerequisites: CDS 231 and CDS 232."
     },
     "cds-245": {
+        "id": "cds-245",
         "name": "Data-driven Control",
         "prereq_text": "Prerequisites: CDS 131 and CDS 232."
     },
     "cmsecids-248": {
+        "id": "cmsecids-248",
         "name": "Topics in Learning and Games",
         "prereq_text": ""
     },
     "aecdsme-251-ab": {
+        "id": "aecdsme-251-ab",
         "name": "Closed Loop Flow Control",
         "prereq_text": "Prerequisites: ACM 100 abc, Ae/APh/CE/ME 101 abc or equivalent."
     },
     "acm-256": {
+        "id": "acm-256",
         "name": "Special Topics in Applied Mathematics",
         "prereq_text": "Prerequisites: Familiarity with analysis and probability, e.g. ACM 105 and ACM 116 is desired."
     },
     "acm-257": {
+        "id": "acm-257",
         "name": "Special Topics in Financial Mathematics",
         "prereq_text": "Prerequisites: ACM 95/100 or instructor's permission."
     },
     "acm-270": {
+        "id": "acm-270",
         "name": "Advanced Topics in Applied and Computational Mathematics",
         "prereq_text": ""
     },
     "cds-270": {
+        "id": "cds-270",
         "name": "Advanced Topics in Systems and Control",
         "prereq_text": ""
     },
     "cms-270": {
+        "id": "cms-270",
         "name": "Advanced Topics in Computing and Mathematical Sciences",
         "prereq_text": ""
     },
     "cs-274-abc": {
+        "id": "cs-274-abc",
         "name": "Topics in Computer Graphics",
         "prereq_text": "Prerequisites: instructor's permission."
     },
     "cs-280": {
+        "id": "cs-280",
         "name": "Research in Computer Science",
         "prereq_text": ""
     },
     "cs-282-abc": {
+        "id": "cs-282-abc",
         "name": "Reading in Computer Science",
         "prereq_text": ""
     },
     "cs-286-abc": {
+        "id": "cs-286-abc",
         "name": "Seminar in Computer Science",
         "prereq_text": ""
     },
     "cs-287": {
+        "id": "cs-287",
         "name": "Center for the Mathematics of Information Seminar",
         "prereq_text": ""
     },
     "cms-290-abc": {
+        "id": "cms-290-abc",
         "name": "Computing and Mathematical Sciences Colloquium",
         "prereq_text": "Prerequisites: Registration is limited to graduate students in the CMS department only."
     },
     "acm-300": {
+        "id": "acm-300",
         "name": "Research in Applied and Computational Mathematics",
         "prereq_text": ""
     },
     "cds-300-abc": {
+        "id": "cds-300-abc",
         "name": "Research in Control and Dynamical Systems",
         "prereq_text": ""
     },
     "cms-300": {
+        "id": "cms-300",
         "name": "Research in Computing and Mathematical Sciences",
         "prereq_text": ""
     }

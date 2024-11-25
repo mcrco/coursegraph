@@ -40,7 +40,7 @@ export default function CourseNode(props: NodeProps<CourseNode>) {
             className = nodeHighlight;
         }
         if (!searched(course, searchTerm))
-            className += " opacity-25";
+            className += " opacity-25 text-opacity-25";
 
         return className;
     }, [getNodes, expandedNodes, prereqRoots, highlightedNodes, searchTerm]);
@@ -62,7 +62,9 @@ export default function CourseNode(props: NodeProps<CourseNode>) {
     return (
         <div className='max-w-3xl min-w-xl text-left relative'>
             <Handle type="target" position={Position.Left} />
-            <Button className="absolute top-4 right-4" size="sm" variant="ghost" onClick={() => togglePrereq(course.id, getNodes() as CourseNode[])}>
+            <Button
+                className={"absolute top-4 right-4" + (!searched(course, searchTerm) ? " opacity-25 text-opacity-25" : "")}
+                size="sm" variant="ghost" onClick={() => togglePrereq(course.id, getNodes() as CourseNode[])}>
                 Prereqs
             </Button>
             <Card onClick={() => toggleExpanded(course.id)} className={className}>
@@ -72,6 +74,8 @@ export default function CourseNode(props: NodeProps<CourseNode>) {
                 </CardHeader>
                 <CardContent>
                     {course.description || "No description provided."}
+                    <br /><br />
+                    {course.prereq_text || "No prereqs provided."}
                 </CardContent>
                 <CardFooter>
                     Offered&nbsp;<i>{course.terms || "??"}</i>&thinsp;
