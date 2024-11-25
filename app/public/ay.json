@@ -9,7 +9,8 @@
         "offered": false,
         "instructors": "Mawet.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "fsay-3": {
         "id": "fsay-3",
@@ -21,7 +22,8 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "geay-11-c": {
         "id": "geay-11-c",
@@ -33,7 +35,12 @@
         "offered": true,
         "instructors": "Brown.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ma 1 ab, Ph 1 ab."
+        "prereq_text": "Prerequisites: Ma 1 ab, Ph 1 ab.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d",
+            "ph-1-abc"
+        ]
     },
     "ay-20": {
         "id": "ay-20",
@@ -45,7 +52,12 @@
         "offered": true,
         "instructors": "Hillenbrand.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ma 1 abc and Ph 1 abc, or instructor's permission."
+        "prereq_text": "Prerequisites: Ma 1 abc and Ph 1 abc, or instructor's permission.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d",
+            "ph-1-abc"
+        ]
     },
     "ay-21": {
         "id": "ay-21",
@@ -57,7 +69,12 @@
         "offered": true,
         "instructors": "Djorgovski.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ma 1 abc, Ph 1 abc or instructor's permission."
+        "prereq_text": "Prerequisites: Ma 1 abc, Ph 1 abc or instructor's permission.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d",
+            "ph-1-abc"
+        ]
     },
     "ay-30": {
         "id": "ay-30",
@@ -69,7 +86,8 @@
         "offered": true,
         "instructors": "Howard.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-31": {
         "id": "ay-31",
@@ -81,7 +99,8 @@
         "offered": true,
         "instructors": "Mawet.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-43": {
         "id": "ay-43",
@@ -93,7 +112,8 @@
         "offered": true,
         "instructors": "Staff.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-78-abc": {
         "id": "ay-78-abc",
@@ -105,7 +125,8 @@
         "offered": true,
         "instructors": "Staff.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: To register, student must obtain approval of the astronomy option representative and the prospective thesis adviser."
+        "prereq_text": "Prerequisites: To register, student must obtain approval of the astronomy option representative and the prospective thesis adviser.",
+        "prereqs": []
     },
     "ay-101": {
         "id": "ay-101",
@@ -117,7 +138,10 @@
         "offered": true,
         "instructors": "Fuller.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ay 20 is recommended."
+        "prereq_text": "Prerequisites: Ay 20 is recommended.",
+        "prereqs": [
+            "ay-20"
+        ]
     },
     "ay-102": {
         "id": "ay-102",
@@ -129,7 +153,10 @@
         "offered": true,
         "instructors": "Phinney.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ay 20 is recommended."
+        "prereq_text": "Prerequisites: Ay 20 is recommended.",
+        "prereqs": [
+            "ay-20"
+        ]
     },
     "ayph-104": {
         "id": "ayph-104",
@@ -141,7 +168,11 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ph 1, Ph 2 ab."
+        "prereq_text": "Prerequisites: Ph 1, Ph 2 ab.",
+        "prereqs": [
+            "ph-2-abc",
+            "ph-1-abc"
+        ]
     },
     "ay-105": {
         "id": "ay-105",
@@ -153,7 +184,10 @@
         "offered": true,
         "instructors": "Hallinan.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ay 20."
+        "prereq_text": "Prerequisites: Ay 20.",
+        "prereqs": [
+            "ay-20"
+        ]
     },
     "ayge-107": {
         "id": "ayge-107",
@@ -165,7 +199,11 @@
         "offered": true,
         "instructors": "Hillenbrand, de Kleer.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: CS 1 or equivalent coding experience recommended."
+        "prereq_text": "Prerequisites: CS 1 or equivalent coding experience recommended.",
+        "prereqs": [
+            "cs-1-x",
+            "cs-1"
+        ]
     },
     "ay-111-abc": {
         "id": "ay-111-abc",
@@ -177,7 +215,8 @@
         "offered": true,
         "instructors": "El-Badry, Djorgovksi.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "geay-117": {
         "id": "geay-117",
@@ -189,7 +228,11 @@
         "offered": true,
         "instructors": "Knutson.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: CS 1 or equivalent."
+        "prereq_text": "Prerequisites: CS 1 or equivalent.",
+        "prereqs": [
+            "cs-1-x",
+            "cs-1"
+        ]
     },
     "ay-119": {
         "id": "ay-119",
@@ -201,7 +244,8 @@
         "offered": true,
         "instructors": "Djorgovski, Graham, Mahabal, Lombeyda.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-121": {
         "id": "ay-121",
@@ -213,7 +257,11 @@
         "offered": true,
         "instructors": "Kulkarni.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ph 106 bc, Ph 125 or equivalent (undergraduates)."
+        "prereq_text": "Prerequisites: Ph 106 bc, Ph 125 or equivalent (undergraduates).",
+        "prereqs": [
+            "ph-125-abc",
+            "ph-106-abc"
+        ]
     },
     "ay-122-abc": {
         "id": "ay-122-abc",
@@ -225,7 +273,10 @@
         "offered": true,
         "instructors": "Howard, Steidel, Hallinan, Kulkarni.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ph 106 bc or equivalent."
+        "prereq_text": "Prerequisites: Ph 106 bc or equivalent.",
+        "prereqs": [
+            "ph-106-abc"
+        ]
     },
     "ay-123": {
         "id": "ay-123",
@@ -237,7 +288,11 @@
         "offered": true,
         "instructors": "El-Badry.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ay 101; Ph 125 or equivalent (undergraduates)."
+        "prereq_text": "Prerequisites: Ay 101; Ph 125 or equivalent (undergraduates).",
+        "prereqs": [
+            "ph-125-abc",
+            "ay-101"
+        ]
     },
     "ay-124": {
         "id": "ay-124",
@@ -249,7 +304,11 @@
         "offered": true,
         "instructors": "Hopkins, El-Badry.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ay 21; Ph 106 or equivalent (undergraduates)."
+        "prereq_text": "Prerequisites: Ay 21; Ph 106 or equivalent (undergraduates).",
+        "prereqs": [
+            "ay-21",
+            "ph-106-abc"
+        ]
     },
     "ay-125": {
         "id": "ay-125",
@@ -261,7 +320,11 @@
         "offered": true,
         "instructors": "Kasliwal.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ph 106 and Ph 125 or equivalent (undergraduates)."
+        "prereq_text": "Prerequisites: Ph 106 and Ph 125 or equivalent (undergraduates).",
+        "prereqs": [
+            "ph-125-abc",
+            "ph-106-abc"
+        ]
     },
     "ay-126": {
         "id": "ay-126",
@@ -273,7 +336,10 @@
         "offered": true,
         "instructors": "Ravi.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ay 102 (undergraduates)."
+        "prereq_text": "Prerequisites: Ay 102 (undergraduates).",
+        "prereqs": [
+            "ay-102"
+        ]
     },
     "ay-127": {
         "id": "ay-127",
@@ -285,7 +351,11 @@
         "offered": true,
         "instructors": "Steidel.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ay 21; Ph 106 or equivalent (undergraduates)."
+        "prereq_text": "Prerequisites: Ay 21; Ph 106 or equivalent (undergraduates).",
+        "prereqs": [
+            "ay-21",
+            "ph-106-abc"
+        ]
     },
     "geay-132": {
         "id": "geay-132",
@@ -297,7 +367,8 @@
         "offered": true,
         "instructors": "Blake.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: instructor's permission."
+        "prereq_text": "Prerequisites: instructor's permission.",
+        "prereqs": []
     },
     "geay-133": {
         "id": "geay-133",
@@ -309,7 +380,8 @@
         "offered": true,
         "instructors": "Batygin.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "geay-137": {
         "id": "geay-137",
@@ -321,7 +393,11 @@
         "offered": true,
         "instructors": "Batygin.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ph 106 abc, ACM 95/100 ab."
+        "prereq_text": "Prerequisites: Ph 106 abc, ACM 95/100 ab.",
+        "prereqs": [
+            "acm-95100-ab",
+            "ph-106-abc"
+        ]
     },
     "ay-141-abc": {
         "id": "ay-141-abc",
@@ -333,7 +409,8 @@
         "offered": true,
         "instructors": "Steidel, Kasliwal, Hopkins.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-142": {
         "id": "ay-142",
@@ -345,7 +422,8 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-143": {
         "id": "ay-143",
@@ -357,7 +435,8 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-144": {
         "id": "ay-144",
@@ -369,7 +448,10 @@
         "offered": true,
         "instructors": "Staff.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ay 142."
+        "prereq_text": "Prerequisites: Ay 142.",
+        "prereqs": [
+            "ay-142"
+        ]
     },
     "geay-159": {
         "id": "geay-159",
@@ -381,7 +463,8 @@
         "offered": true,
         "instructors": "Yung.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-190": {
         "id": "ay-190",
@@ -393,7 +476,10 @@
         "offered": true,
         "instructors": "Hopkins, Most.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ph 20-22 (undergraduates)."
+        "prereq_text": "Prerequisites: Ph 20-22 (undergraduates).",
+        "prereqs": [
+            "ph-20"
+        ]
     },
     "ayge-198": {
         "id": "ayge-198",
@@ -405,7 +491,8 @@
         "offered": true,
         "instructors": "Howard.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-211": {
         "id": "ay-211",
@@ -417,7 +504,12 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ay 123, Ay 124, and Ay 127."
+        "prereq_text": "Prerequisites: Ay 123, Ay 124, and Ay 127.",
+        "prereqs": [
+            "ay-124",
+            "ay-123",
+            "ay-127"
+        ]
     },
     "ay-215": {
         "id": "ay-215",
@@ -429,7 +521,8 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-218": {
         "id": "ay-218",
@@ -441,7 +534,8 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ay-219": {
         "id": "ay-219",
@@ -453,6 +547,9 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ay",
-        "prereq_text": "Prerequisites: Ay 121, 123, 124, 126."
+        "prereq_text": "Prerequisites: Ay 121, 123, 124, 126.",
+        "prereqs": [
+            "ay-121"
+        ]
     }
 }

@@ -9,7 +9,8 @@
         "offered": true,
         "instructors": "Conlon, Gherman, Graber, Mantovan, Graber, Ni, T. Yu.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: high-school algebra, trigonometry, and calculus."
+        "prereq_text": "Prerequisites: high-school algebra, trigonometry, and calculus.",
+        "prereqs": []
     },
     "ma-1-d": {
         "id": "ma-1-d",
@@ -21,7 +22,11 @@
         "offered": true,
         "instructors": "Gherman.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: special section of Ma 1 a."
+        "prereq_text": "Prerequisites: special section of Ma 1 a.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d"
+        ]
     },
     "ma-2102": {
         "id": "ma-2102",
@@ -33,7 +38,11 @@
         "offered": true,
         "instructors": "Makarov, Hutchcroft.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 1 abc."
+        "prereq_text": "Prerequisites: Ma 1 abc.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d"
+        ]
     },
     "ma-3103": {
         "id": "ma-3103",
@@ -45,7 +54,11 @@
         "offered": true,
         "instructors": "Pachter and Halgrimmsdottir.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 1 abc."
+        "prereq_text": "Prerequisites: Ma 1 abc.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d"
+        ]
     },
     "ma-4104": {
         "id": "ma-4104",
@@ -57,7 +70,8 @@
         "offered": true,
         "instructors": "Angelopoulos.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ma-5105-abc": {
         "id": "ma-5105-abc",
@@ -69,7 +83,8 @@
         "offered": true,
         "instructors": "Mantovan, Tang, Gherman.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "macs-6106-abc": {
         "id": "macs-6106-abc",
@@ -81,7 +96,11 @@
         "offered": true,
         "instructors": "T. Yu, Babecki, Ervin.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: for Ma/CS 6 c, Ma/CS 6 a or Ma 5 a or instructor's permission."
+        "prereq_text": "Prerequisites: for Ma/CS 6 c, Ma/CS 6 a or Ma 5 a or instructor's permission.",
+        "prereqs": [
+            "macs-6106-abc",
+            "ma-5105-abc"
+        ]
     },
     "ma-7107": {
         "id": "ma-7107",
@@ -93,7 +112,8 @@
         "offered": true,
         "instructors": "Fu.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ma-8": {
         "id": "ma-8",
@@ -105,7 +125,11 @@
         "offered": true,
         "instructors": "Graber.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: simultaneous registration in Ma 1 a."
+        "prereq_text": "Prerequisites: simultaneous registration in Ma 1 a.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d"
+        ]
     },
     "ma-10": {
         "id": "ma-10",
@@ -117,7 +141,8 @@
         "offered": true,
         "instructors": "Mantovan.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ma-11": {
         "id": "ma-11",
@@ -129,7 +154,8 @@
         "offered": false,
         "instructors": "Marcolli.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: First-year students must have instructor\u2019s permission to enroll."
+        "prereq_text": "Prerequisites: First-year students must have instructor\u2019s permission to enroll.",
+        "prereqs": []
     },
     "fsma-12": {
         "id": "fsma-12",
@@ -141,7 +167,11 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 1 ab."
+        "prereq_text": "Prerequisites: Ma 1 ab.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d"
+        ]
     },
     "ma-13": {
         "id": "ma-13",
@@ -153,7 +183,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Concurrent registration in Ph 1 b."
+        "prereq_text": "Prerequisites: Concurrent registration in Ph 1 b.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
     },
     "ma-14": {
         "id": "ma-14",
@@ -165,7 +198,11 @@
         "offered": true,
         "instructors": "Staff.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 1 abc or instructor's permission."
+        "prereq_text": "Prerequisites: Ma 1 abc or instructor's permission.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d"
+        ]
     },
     "ma-17": {
         "id": "ma-17",
@@ -177,7 +214,8 @@
         "offered": true,
         "instructors": "Dimitrov.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ma-20": {
         "id": "ma-20",
@@ -189,7 +227,8 @@
         "offered": true,
         "instructors": "Song.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Open for credit to first-year students and sophomores."
+        "prereq_text": "Prerequisites: Open for credit to first-year students and sophomores.",
+        "prereqs": []
     },
     "ma-92-abc": {
         "id": "ma-92-abc",
@@ -201,7 +240,8 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: To register, the student must obtain permission of the mathematics undergraduate representative."
+        "prereq_text": "Prerequisites: To register, the student must obtain permission of the mathematics undergraduate representative.",
+        "prereqs": []
     },
     "ma-97": {
         "id": "ma-97",
@@ -213,7 +253,8 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ma-98": {
         "id": "ma-98",
@@ -225,7 +266,8 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ma-108-abc": {
         "id": "ma-108-abc",
@@ -237,7 +279,12 @@
         "offered": true,
         "instructors": "Reeves, Looi, Caniato.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 1 or equivalent, or instructor\u2019s permission. May be taken concurrently with Ma 109."
+        "prereq_text": "Prerequisites: Ma 1 or equivalent, or instructor\u2019s permission. May be taken concurrently with Ma 109.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d",
+            "ma-109-abc"
+        ]
     },
     "ma-109-abc": {
         "id": "ma-109-abc",
@@ -249,7 +296,12 @@
         "offered": true,
         "instructors": "Jang, Ryoo.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 2 or equivalent. We recommend Ma 5 a and Ma 108 a be taken previously or concurrently."
+        "prereq_text": "Prerequisites: Ma 2 or equivalent. We recommend Ma 5 a and Ma 108 a be taken previously or concurrently.",
+        "prereqs": [
+            "ma-108-abc",
+            "ma-2102",
+            "ma-5105-abc"
+        ]
     },
     "ma-110-abc": {
         "id": "ma-110-abc",
@@ -261,7 +313,10 @@
         "offered": true,
         "instructors": "Hein\u00e4vaara, Hutchcroft, Isett.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 108 or previous exposure to metric space topology, Lebesgue measure."
+        "prereq_text": "Prerequisites: Ma 108 or previous exposure to metric space topology, Lebesgue measure.",
+        "prereqs": [
+            "ma-108-abc"
+        ]
     },
     "ma-111-abc": {
         "id": "ma-111-abc",
@@ -273,7 +328,10 @@
         "offered": true,
         "instructors": "Hein\u00e4vaara.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 110 or instructor's permission."
+        "prereq_text": "Prerequisites: Ma 110 or instructor's permission.",
+        "prereqs": [
+            "ma-110-abc"
+        ]
     },
     "ma-112-ab": {
         "id": "ma-112-ab",
@@ -285,7 +343,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 2 a probability and statistics or equivalent."
+        "prereq_text": "Prerequisites: Ma 2 a probability and statistics or equivalent.",
+        "prereqs": [
+            "ma-2102"
+        ]
     },
     "ma-116-abc": {
         "id": "ma-116-abc",
@@ -297,7 +358,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 5 or equivalent, or instructor's permission."
+        "prereq_text": "Prerequisites: Ma 5 or equivalent, or instructor's permission.",
+        "prereqs": [
+            "ma-5105-abc"
+        ]
     },
     "macs-117-abc": {
         "id": "macs-117-abc",
@@ -309,7 +373,10 @@
         "offered": true,
         "instructors": "Ervin.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 5 or equivalent, or instructor's permission."
+        "prereq_text": "Prerequisites: Ma 5 or equivalent, or instructor's permission.",
+        "prereqs": [
+            "ma-5105-abc"
+        ]
     },
     "ma-118": {
         "id": "ma-118",
@@ -321,7 +388,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 5 or equivalent, or instructor's permission."
+        "prereq_text": "Prerequisites: Ma 5 or equivalent, or instructor's permission.",
+        "prereqs": [
+            "ma-5105-abc"
+        ]
     },
     "ma-120-abc": {
         "id": "ma-120-abc",
@@ -333,7 +403,10 @@
         "offered": true,
         "instructors": "Svoboda, Dimitrov, Tang.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 5 or equivalent or instructor's permission."
+        "prereq_text": "Prerequisites: Ma 5 or equivalent or instructor's permission.",
+        "prereqs": [
+            "ma-5105-abc"
+        ]
     },
     "ma-121-ab": {
         "id": "ma-121-ab",
@@ -345,7 +418,10 @@
         "offered": true,
         "instructors": "Gherman, Babecki.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 5."
+        "prereq_text": "Prerequisites: Ma 5.",
+        "prereqs": [
+            "ma-5105-abc"
+        ]
     },
     "ma-123": {
         "id": "ma-123",
@@ -357,7 +433,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 5 or equivalent."
+        "prereq_text": "Prerequisites: Ma 5 or equivalent.",
+        "prereqs": [
+            "ma-5105-abc"
+        ]
     },
     "ma-124": {
         "id": "ma-124",
@@ -369,7 +448,10 @@
         "offered": true,
         "instructors": "Fu.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 5 or equivalent."
+        "prereq_text": "Prerequisites: Ma 5 or equivalent.",
+        "prereqs": [
+            "ma-5105-abc"
+        ]
     },
     "ma-125": {
         "id": "ma-125",
@@ -381,7 +463,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 5."
+        "prereq_text": "Prerequisites: Ma 5.",
+        "prereqs": [
+            "ma-5105-abc"
+        ]
     },
     "eemacs-126-ab": {
         "id": "eemacs-126-ab",
@@ -393,7 +478,10 @@
         "offered": true,
         "instructors": "Effros.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 3."
+        "prereq_text": "Prerequisites: Ma 3.",
+        "prereqs": [
+            "ma-3103"
+        ]
     },
     "eemacsids-127": {
         "id": "eemacsids-127",
@@ -405,7 +493,10 @@
         "offered": true,
         "instructors": "Kostina.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: EE 55 or equivalent."
+        "prereq_text": "Prerequisites: EE 55 or equivalent.",
+        "prereqs": [
+            "ee-55"
+        ]
     },
     "ma-128": {
         "id": "ma-128",
@@ -417,7 +508,8 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Math 120 abc or instructor's permission."
+        "prereq_text": "Prerequisites: Math 120 abc or instructor's permission.",
+        "prereqs": []
     },
     "ma-130-abc": {
         "id": "ma-130-abc",
@@ -429,7 +521,11 @@
         "offered": true,
         "instructors": "Xu.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 120 (or Ma 5 plus additional reading)."
+        "prereq_text": "Prerequisites: Ma 120 (or Ma 5 plus additional reading).",
+        "prereqs": [
+            "ma-120-abc",
+            "ma-5105-abc"
+        ]
     },
     "ma-132-abc": {
         "id": "ma-132-abc",
@@ -441,7 +537,10 @@
         "offered": true,
         "instructors": "El-Maazouz.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 130 or instructor's permission."
+        "prereq_text": "Prerequisites: Ma 130 or instructor's permission.",
+        "prereqs": [
+            "ma-130-abc"
+        ]
     },
     "ma-135-ab": {
         "id": "ma-135-ab",
@@ -453,7 +552,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 130."
+        "prereq_text": "Prerequisites: Ma 130.",
+        "prereqs": [
+            "ma-130-abc"
+        ]
     },
     "eemacsids-136": {
         "id": "eemacsids-136",
@@ -465,7 +567,10 @@
         "offered": true,
         "instructors": "Kostina.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: EE 55 or equivalent."
+        "prereq_text": "Prerequisites: EE 55 or equivalent.",
+        "prereqs": [
+            "ee-55"
+        ]
     },
     "maacmids-140-abc": {
         "id": "maacmids-140-abc",
@@ -477,7 +582,10 @@
         "offered": true,
         "instructors": "Tamuz, El-Maazouz, Zhang.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: For 140 a, Ma 108 b is strongly recommended."
+        "prereq_text": "Prerequisites: For 140 a, Ma 108 b is strongly recommended.",
+        "prereqs": [
+            "ma-108-abc"
+        ]
     },
     "maacm-142-ab": {
         "id": "maacm-142-ab",
@@ -489,7 +597,11 @@
         "offered": true,
         "instructors": "Looi.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 108; Ma 109 is desirable."
+        "prereq_text": "Prerequisites: Ma 108; Ma 109 is desirable.",
+        "prereqs": [
+            "ma-108-abc",
+            "ma-109-abc"
+        ]
     },
     "ma-145-abc": {
         "id": "ma-145-abc",
@@ -501,7 +613,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 5."
+        "prereq_text": "Prerequisites: Ma 5.",
+        "prereqs": [
+            "ma-5105-abc"
+        ]
     },
     "ma-146-ab": {
         "id": "ma-146-ab",
@@ -513,7 +628,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 109 or equivalent."
+        "prereq_text": "Prerequisites: Ma 109 or equivalent.",
+        "prereqs": [
+            "ma-109-abc"
+        ]
     },
     "ma-147-abc": {
         "id": "ma-147-abc",
@@ -525,7 +643,11 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 108, Ma 109, or equivalent."
+        "prereq_text": "Prerequisites: Ma 108, Ma 109, or equivalent.",
+        "prereqs": [
+            "ma-108-abc",
+            "ma-109-abc"
+        ]
     },
     "ma-148-ab": {
         "id": "ma-148-ab",
@@ -537,7 +659,8 @@
         "offered": true,
         "instructors": "Marcolli.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ma-151-abc": {
         "id": "ma-151-abc",
@@ -549,7 +672,10 @@
         "offered": true,
         "instructors": "Chen, Ni, Song.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 109 abc or equivalent."
+        "prereq_text": "Prerequisites: Ma 109 abc or equivalent.",
+        "prereqs": [
+            "ma-109-abc"
+        ]
     },
     "ma-157-abc": {
         "id": "ma-157-abc",
@@ -561,7 +687,10 @@
         "offered": true,
         "instructors": "Chen, Jang, Ryoo.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 151 or equivalent, or instructor's permission."
+        "prereq_text": "Prerequisites: Ma 151 or equivalent, or instructor's permission.",
+        "prereqs": [
+            "ma-151-abc"
+        ]
     },
     "ma-160-abc": {
         "id": "ma-160-abc",
@@ -573,7 +702,10 @@
         "offered": true,
         "instructors": "Fu, Flach.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 5."
+        "prereq_text": "Prerequisites: Ma 5.",
+        "prereqs": [
+            "ma-5105-abc"
+        ]
     },
     "ma-162-ab": {
         "id": "ma-162-ab",
@@ -585,7 +717,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": "Prerequisites: Ma 160."
+        "prereq_text": "Prerequisites: Ma 160.",
+        "prereqs": [
+            "ma-160-abc"
+        ]
     },
     "ma-191-abc": {
         "id": "ma-191-abc",
@@ -597,7 +732,8 @@
         "offered": true,
         "instructors": "Angelopoulos, Isett, Ryoo, Aluffi, Caniato, Chen, Reeves, Song.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ssma-214": {
         "id": "ssma-214",
@@ -609,7 +745,8 @@
         "offered": true,
         "instructors": "Cvitanic.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ma-290": {
         "id": "ma-290",
@@ -621,7 +758,8 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ma-390": {
         "id": "ma-390",
@@ -633,6 +771,7 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ma",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     }
 }

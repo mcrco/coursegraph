@@ -9,7 +9,8 @@
         "offered": true,
         "instructors": "Ravi, Patterson, X. Chen, Refael.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-2-abc": {
         "id": "ph-2-abc",
@@ -21,7 +22,12 @@
         "offered": true,
         "instructors": "Hildebrandt, Filippone.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 1 abc, Ma 1 abc."
+        "prereq_text": "Prerequisites: Ph 1 abc, Ma 1 abc.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d",
+            "ph-1-abc"
+        ]
     },
     "ph-3": {
         "id": "ph-3",
@@ -33,7 +39,10 @@
         "offered": true,
         "instructors": "Black, Libbrecht.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 1 a or instructor's permission."
+        "prereq_text": "Prerequisites: Ph 1 a or instructor's permission.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
     },
     "fsph-4": {
         "id": "fsph-4",
@@ -45,7 +54,8 @@
         "offered": true,
         "instructors": "Weinstein.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-5": {
         "id": "ph-5",
@@ -57,7 +67,13 @@
         "offered": true,
         "instructors": "Rice, Libbrecht.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 1 abc, Ma 1 abc, Ma 2 taken concurrently."
+        "prereq_text": "Prerequisites: Ph 1 abc, Ma 1 abc, Ma 2 taken concurrently.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-2102",
+            "ma-1-d",
+            "ph-1-abc"
+        ]
     },
     "ph-6": {
         "id": "ph-6",
@@ -69,7 +85,14 @@
         "offered": true,
         "instructors": "Rice, Politzer.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 2 a or Ph 12 a, Ma 2, Ph 3, Ph 2 b or Ph 12 b (may be taken concurrently), Ma 3 (may be taken concurrently)."
+        "prereq_text": "Prerequisites: Ph 2 a or Ph 12 a, Ma 2, Ph 3, Ph 2 b or Ph 12 b (may be taken concurrently), Ma 3 (may be taken concurrently).",
+        "prereqs": [
+            "ph-2-abc",
+            "ma-3103",
+            "ph-12-abc",
+            "ph-3",
+            "ma-2102"
+        ]
     },
     "ph-7": {
         "id": "ph-7",
@@ -81,7 +104,12 @@
         "offered": true,
         "instructors": "Rice, Politzer.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 6, Ph 2 b or Ph 12 b, Ph 2 c or Ph 12 c taken concurrently."
+        "prereq_text": "Prerequisites: Ph 6, Ph 2 b or Ph 12 b, Ph 2 c or Ph 12 c taken concurrently.",
+        "prereqs": [
+            "ph-6",
+            "ph-2-abc",
+            "ph-12-abc"
+        ]
     },
     "ph-8-bc": {
         "id": "ph-8-bc",
@@ -93,7 +121,10 @@
         "offered": true,
         "instructors": "Spiropulu.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 1 a."
+        "prereq_text": "Prerequisites: Ph 1 a.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
     },
     "fsph-9": {
         "id": "fsph-9",
@@ -105,7 +136,8 @@
         "offered": true,
         "instructors": "Politzer.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-10": {
         "id": "ph-10",
@@ -117,7 +149,8 @@
         "offered": true,
         "instructors": "Spiropulu.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "fsph-11-abc": {
         "id": "fsph-11-abc",
@@ -129,7 +162,8 @@
         "offered": true,
         "instructors": "Phillips.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-12-abc": {
         "id": "ph-12-abc",
@@ -141,7 +175,12 @@
         "offered": true,
         "instructors": "Zmuidzinas, Golwala.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 1 abc, Ma 1 abc, or equivalents."
+        "prereq_text": "Prerequisites: Ph 1 abc, Ma 1 abc, or equivalents.",
+        "prereqs": [
+            "ma-1-abc",
+            "ma-1-d",
+            "ph-1-abc"
+        ]
     },
     "fsph-15": {
         "id": "fsph-15",
@@ -153,7 +192,8 @@
         "offered": true,
         "instructors": "Preskill.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-20": {
         "id": "ph-20",
@@ -165,7 +205,11 @@
         "offered": true,
         "instructors": "Adhikari.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: CS 1 or equivalent."
+        "prereq_text": "Prerequisites: CS 1 or equivalent.",
+        "prereqs": [
+            "cs-1-x",
+            "cs-1"
+        ]
     },
     "ph-21": {
         "id": "ph-21",
@@ -177,7 +221,10 @@
         "offered": true,
         "instructors": "Adhikari.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 20 or equivalent experience with programming."
+        "prereq_text": "Prerequisites: Ph 20 or equivalent experience with programming.",
+        "prereqs": [
+            "ph-20"
+        ]
     },
     "ph-22": {
         "id": "ph-22",
@@ -189,7 +236,10 @@
         "offered": true,
         "instructors": "McCuller.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 20 or equivalent experience with programming and numerical techniques."
+        "prereq_text": "Prerequisites: Ph 20 or equivalent experience with programming and numerical techniques.",
+        "prereqs": [
+            "ph-20"
+        ]
     },
     "ph-50-ab": {
         "id": "ph-50-ab",
@@ -201,7 +251,10 @@
         "offered": true,
         "instructors": "Refael.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 1 abc."
+        "prereq_text": "Prerequisites: Ph 1 abc.",
+        "prereqs": [
+            "ph-1-abc"
+        ]
     },
     "ph-70": {
         "id": "ph-70",
@@ -213,7 +266,8 @@
         "offered": true,
         "instructors": "Hitlin.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-77-abc": {
         "id": "ph-77-abc",
@@ -225,7 +279,10 @@
         "offered": true,
         "instructors": "Black, Libbrecht.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 7 or instructor's permission."
+        "prereq_text": "Prerequisites: Ph 7 or instructor's permission.",
+        "prereqs": [
+            "ph-7"
+        ]
     },
     "ph-78-abc": {
         "id": "ph-78-abc",
@@ -237,7 +294,8 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: To register for this course, the student must obtain approval of the chair of the Physics Undergraduate Committee (Ken Libbrecht)."
+        "prereq_text": "Prerequisites: To register for this course, the student must obtain approval of the chair of the Physics Undergraduate Committee (Ken Libbrecht).",
+        "prereqs": []
     },
     "ph-79-abc": {
         "id": "ph-79-abc",
@@ -249,7 +307,8 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: To register for this course, the student must obtain approval of the chair of the Physics Undergraduate Committee (Ken Libbrecht)."
+        "prereq_text": "Prerequisites: To register for this course, the student must obtain approval of the chair of the Physics Undergraduate Committee (Ken Libbrecht).",
+        "prereqs": []
     },
     "ph-101": {
         "id": "ph-101",
@@ -261,7 +320,8 @@
         "offered": true,
         "instructors": "Phinney.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ayph-104": {
         "id": "ayph-104",
@@ -273,7 +333,11 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 1, Ph 2 ab."
+        "prereq_text": "Prerequisites: Ph 1, Ph 2 ab.",
+        "prereqs": [
+            "ph-2-abc",
+            "ph-1-abc"
+        ]
     },
     "ph-105": {
         "id": "ph-105",
@@ -285,7 +349,11 @@
         "offered": true,
         "instructors": "Rice, Libbrecht.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 1 abc, Ma 2, or equivalent."
+        "prereq_text": "Prerequisites: Ph 1 abc, Ma 2, or equivalent.",
+        "prereqs": [
+            "ma-2102",
+            "ph-1-abc"
+        ]
     },
     "ph-106-abc": {
         "id": "ph-106-abc",
@@ -297,7 +365,12 @@
         "offered": true,
         "instructors": "Chatziiaonnou, Porter.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 2 ab or Ph 12 abc, Ma 2."
+        "prereq_text": "Prerequisites: Ph 2 ab or Ph 12 abc, Ma 2.",
+        "prereqs": [
+            "ph-2-abc",
+            "ma-2102",
+            "ph-12-abc"
+        ]
     },
     "ph-107": {
         "id": "ph-107",
@@ -309,7 +382,11 @@
         "offered": true,
         "instructors": "Hutzler, Adhikari.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 2 ab or Ph 12 ab."
+        "prereq_text": "Prerequisites: Ph 2 ab or Ph 12 ab.",
+        "prereqs": [
+            "ph-2-abc",
+            "ph-12-abc"
+        ]
     },
     "aphph-112": {
         "id": "aphph-112",
@@ -321,7 +398,12 @@
         "offered": true,
         "instructors": "Troian.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 12 abc, ACM 95/100 ab and Ph 106 abc, equivalent background, or instructor's permission."
+        "prereq_text": "Prerequisites: Ph 12 abc, ACM 95/100 ab and Ph 106 abc, equivalent background, or instructor's permission.",
+        "prereqs": [
+            "ph-12-abc",
+            "acm-95100-ab",
+            "ph-106-abc"
+        ]
     },
     "phaphee-118-c": {
         "id": "phaphee-118-c",
@@ -333,7 +415,10 @@
         "offered": true,
         "instructors": "Roukes.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 118a, and a course in microwave physics and engineering (e.g., Ph 118b, EE 153, or equivalent), or permission from the instructor."
+        "prereq_text": "Prerequisites: Ph 118a, and a course in microwave physics and engineering (e.g., Ph 118b, EE 153, or equivalent), or permission from the instructor.",
+        "prereqs": [
+            "ee-153"
+        ]
     },
     "phapheebe-118-ab": {
         "id": "phapheebe-118-ab",
@@ -345,7 +430,11 @@
         "offered": true,
         "instructors": "Roukes.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 127, APh 105, or equivalent, or permission from instructor."
+        "prereq_text": "Prerequisites: Ph 127, APh 105, or equivalent, or permission from instructor.",
+        "prereqs": [
+            "ph-127-ab",
+            "ph-105"
+        ]
     },
     "csph-120": {
         "id": "csph-120",
@@ -357,7 +446,15 @@
         "offered": false,
         "instructors": "Staff.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ma 1 b, Ph 2 b or Ph 12 b, CS 21, CS 38 or equivalent recommended (or instructor's permission)."
+        "prereq_text": "Prerequisites: Ma 1 b, Ph 2 b or Ph 12 b, CS 21, CS 38 or equivalent recommended (or instructor's permission).",
+        "prereqs": [
+            "ph-2-abc",
+            "ph-12-abc",
+            "ma-1-abc",
+            "cs-21",
+            "ma-1-d",
+            "cs-38"
+        ]
     },
     "ph-121-abc": {
         "id": "ph-121-abc",
@@ -369,7 +466,8 @@
         "offered": true,
         "instructors": "Y. Chen, Motrunich.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-125-abc": {
         "id": "ph-125-abc",
@@ -381,7 +479,12 @@
         "offered": true,
         "instructors": "Porter, Cheung.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ma 2 ab, Ph 12 abc or Ph 2 ab, or equivalents."
+        "prereq_text": "Prerequisites: Ma 2 ab, Ph 12 abc or Ph 2 ab, or equivalents.",
+        "prereqs": [
+            "ma-2102",
+            "ph-2-abc",
+            "ph-12-abc"
+        ]
     },
     "ph-127-ab": {
         "id": "ph-127-ab",
@@ -393,7 +496,12 @@
         "offered": true,
         "instructors": "Motrunich.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 12 c or equivalent; quantum mechanics at the level of Ph 125 ab is required for Ph 127 b; may be taken concurrently."
+        "prereq_text": "Prerequisites: Ph 12 c or equivalent; quantum mechanics at the level of Ph 125 ab is required for Ph 127 b; may be taken concurrently.",
+        "prereqs": [
+            "ph-127-ab",
+            "ph-125-abc",
+            "ph-12-abc"
+        ]
     },
     "ph-129-abc": {
         "id": "ph-129-abc",
@@ -405,7 +513,11 @@
         "offered": true,
         "instructors": "X. Chen, Chatziioannou.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ma 2 and Ph 2 abc, or equivalent."
+        "prereq_text": "Prerequisites: Ma 2 and Ph 2 abc, or equivalent.",
+        "prereqs": [
+            "ma-2102",
+            "ph-2-abc"
+        ]
     },
     "ph-135": {
         "id": "ph-135",
@@ -417,7 +529,10 @@
         "offered": true,
         "instructors": "Ye.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 125 ab or equivalent or instructor's permission."
+        "prereq_text": "Prerequisites: Ph 125 ab or equivalent or instructor's permission.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
     },
     "ph-136-abc": {
         "id": "ph-136-abc",
@@ -429,7 +544,10 @@
         "offered": true,
         "instructors": "Most, Fuller, Teukolsky.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 106 ab or equivalent."
+        "prereq_text": "Prerequisites: Ph 106 ab or equivalent.",
+        "prereqs": [
+            "ph-106-abc"
+        ]
     },
     "phaph-137-abc": {
         "id": "phaph-137-abc",
@@ -441,7 +559,10 @@
         "offered": true,
         "instructors": "Hutzler.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 125 ab or equivalent, or instructor's permission."
+        "prereq_text": "Prerequisites: Ph 125 ab or equivalent, or instructor's permission.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
     },
     "aphph-138-ab": {
         "id": "aphph-138-ab",
@@ -453,7 +574,12 @@
         "offered": true,
         "instructors": "Faraon, Nadj-Perge.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 125 abc or Ph 127 ab or Ph 137 ab or instructor's permission."
+        "prereq_text": "Prerequisites: Ph 125 abc or Ph 127 ab or Ph 137 ab or instructor's permission.",
+        "prereqs": [
+            "ph-127-ab",
+            "ph-125-abc",
+            "phaph-137-abc"
+        ]
     },
     "ph-139": {
         "id": "ph-139",
@@ -465,7 +591,10 @@
         "offered": true,
         "instructors": "Weinstein.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 125 ab or equivalent, or instructor's permission."
+        "prereq_text": "Prerequisites: Ph 125 ab or equivalent, or instructor's permission.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
     },
     "aphphms-152": {
         "id": "aphphms-152",
@@ -477,7 +606,10 @@
         "offered": false,
         "instructors": "Troian.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: ACM 95/100 ab or equivalent."
+        "prereq_text": "Prerequisites: ACM 95/100 ab or equivalent.",
+        "prereqs": [
+            "acm-95100-ab"
+        ]
     },
     "aphphaems-153": {
         "id": "aphphaems-153",
@@ -489,7 +621,10 @@
         "offered": false,
         "instructors": "Troian.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: ACM 95/100 ab or equivalent."
+        "prereq_text": "Prerequisites: ACM 95/100 ab or equivalent.",
+        "prereqs": [
+            "acm-95100-ab"
+        ]
     },
     "ph-171": {
         "id": "ph-171",
@@ -501,7 +636,8 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-172": {
         "id": "ph-172",
@@ -513,7 +649,8 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-177": {
         "id": "ph-177",
@@ -525,7 +662,12 @@
         "offered": true,
         "instructors": "Rice.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 6, Ph 106 a, Ph 125 a or equivalents."
+        "prereq_text": "Prerequisites: Ph 6, Ph 106 a, Ph 125 a or equivalents.",
+        "prereqs": [
+            "ph-6",
+            "ph-125-abc",
+            "ph-106-abc"
+        ]
     },
     "cnsbiphcsnb-187": {
         "id": "cnsbiphcsnb-187",
@@ -537,7 +679,8 @@
         "offered": false,
         "instructors": "Meister.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: introductory neuroscience (Bi 150 or equivalent); mathematical methods (Bi 195 or equivalent); scientific programming."
+        "prereq_text": "Prerequisites: introductory neuroscience (Bi 150 or equivalent); mathematical methods (Bi 195 or equivalent); scientific programming.",
+        "prereqs": []
     },
     "ph-198": {
         "id": "ph-198",
@@ -549,7 +692,8 @@
         "offered": true,
         "instructors": "Staff.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-201": {
         "id": "ph-201",
@@ -561,7 +705,8 @@
         "offered": true,
         "instructors": "Endres.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-203": {
         "id": "ph-203",
@@ -573,7 +718,10 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 125 or equivalent."
+        "prereq_text": "Prerequisites: Ph 125 or equivalent.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
     },
     "ph-205-abc": {
         "id": "ph-205-abc",
@@ -585,7 +733,10 @@
         "offered": true,
         "instructors": "Wise.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 125."
+        "prereq_text": "Prerequisites: Ph 125.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
     },
     "phcs-219-abc": {
         "id": "phcs-219-abc",
@@ -597,7 +748,10 @@
         "offered": true,
         "instructors": "Kitaev, Preskill.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 125 ab or equivalent."
+        "prereq_text": "Prerequisites: Ph 125 ab or equivalent.",
+        "prereqs": [
+            "ph-125-abc"
+        ]
     },
     "phaph-223-ab": {
         "id": "phaph-223-ab",
@@ -609,7 +763,10 @@
         "offered": true,
         "instructors": "Alicea.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 135 or equivalent, or instructor's permission."
+        "prereq_text": "Prerequisites: Ph 135 or equivalent, or instructor's permission.",
+        "prereqs": [
+            "ph-135"
+        ]
     },
     "ph-229-abc": {
         "id": "ph-229-abc",
@@ -621,7 +778,10 @@
         "offered": true,
         "instructors": "Simmons-Duffin.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 129 abc or equivalent."
+        "prereq_text": "Prerequisites: Ph 129 abc or equivalent.",
+        "prereqs": [
+            "ph-129-abc"
+        ]
     },
     "ph-230-abc": {
         "id": "ph-230-abc",
@@ -633,7 +793,10 @@
         "offered": true,
         "instructors": "Zurek.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 205 abc or equivalent."
+        "prereq_text": "Prerequisites: Ph 205 abc or equivalent.",
+        "prereqs": [
+            "ph-205-abc"
+        ]
     },
     "ph-231-ab": {
         "id": "ph-231-ab",
@@ -645,7 +808,10 @@
         "offered": true,
         "instructors": "Kapustin.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 127 or equivalent."
+        "prereq_text": "Prerequisites: Ph 127 or equivalent.",
+        "prereqs": [
+            "ph-127-ab"
+        ]
     },
     "ph-232": {
         "id": "ph-232",
@@ -657,7 +823,10 @@
         "offered": true,
         "instructors": "Kapustin, Simmons-Duffin.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 205."
+        "prereq_text": "Prerequisites: Ph 205.",
+        "prereqs": [
+            "ph-205-abc"
+        ]
     },
     "ph-235-ab": {
         "id": "ph-235-ab",
@@ -669,7 +838,11 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: General Relativity at the level of Ph 236 a, and Quantum Field Theory at the level of Ph 205 a."
+        "prereq_text": "Prerequisites: General Relativity at the level of Ph 236 a, and Quantum Field Theory at the level of Ph 205 a.",
+        "prereqs": [
+            "ph-236-abc",
+            "ph-205-abc"
+        ]
     },
     "ph-236-abc": {
         "id": "ph-236-abc",
@@ -681,7 +854,8 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: a mastery of special relativity at the level of Goldstein's Classical Mechanics, or of Jackson's Classical Electrodynamics."
+        "prereq_text": "Prerequisites: a mastery of special relativity at the level of Goldstein's Classical Mechanics, or of Jackson's Classical Electrodynamics.",
+        "prereqs": []
     },
     "ph-237": {
         "id": "ph-237",
@@ -693,7 +867,11 @@
         "offered": false,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 106 b, Ph 12 b or equivalents."
+        "prereq_text": "Prerequisites: Ph 106 b, Ph 12 b or equivalents.",
+        "prereqs": [
+            "ph-12-abc",
+            "ph-106-abc"
+        ]
     },
     "ph-242-ab": {
         "id": "ph-242-ab",
@@ -705,7 +883,8 @@
         "offered": true,
         "instructors": "Hsieh.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     },
     "ph-250-ab": {
         "id": "ph-250-ab",
@@ -717,7 +896,10 @@
         "offered": true,
         "instructors": "Ooguri.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": "Prerequisites: Ph 205 or equivalent."
+        "prereq_text": "Prerequisites: Ph 205 or equivalent.",
+        "prereqs": [
+            "ph-205-abc"
+        ]
     },
     "ph-300": {
         "id": "ph-300",
@@ -729,6 +911,7 @@
         "offered": true,
         "instructors": "No instructors provided.",
         "link": "https://pma.caltech.edu/courses/department/ph",
-        "prereq_text": ""
+        "prereq_text": "",
+        "prereqs": []
     }
 }
