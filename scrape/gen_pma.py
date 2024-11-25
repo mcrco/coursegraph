@@ -104,9 +104,9 @@ def scrape_pma(dept):
             "prereq_text": prereq_text,
         }
 
-    save_courses(courses, dept.lower())
     for id, course in courses.items():
         courses[id]["prereqs"] = extract_prereqs(course["prereq_text"])
+    save_courses(courses, dept.lower())
     print(f"Finished scraping {dept} courses.\n")
 
 

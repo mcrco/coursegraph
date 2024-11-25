@@ -46,4 +46,4 @@ def extract_prereqs(prereq_text):
                 ):
                     prereqs.add(id)
 
-    return list(prereqs)
+    return list(prereqs) if prereqs else []
