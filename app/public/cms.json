@@ -139,10 +139,10 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/acm-11",
         "prereq_text": "Prerequisites: Ma 1 ab, Co-requisite Ma 1 c. CS 1 or prior programming experience recommended.",
         "prereqs": [
-            "cs-1",
             "cs-1-x",
-            "ma-1-abc",
-            "ma-1-d"
+            "ma-1-d",
+            "cs-1",
+            "ma-1-abc"
         ]
     },
     "cs-11": {
@@ -264,9 +264,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cs-38",
         "prereq_text": "Prerequisites: CS 2; Ma/CS 6 a or Ma 121 a; and CS 21.",
         "prereqs": [
-            "macs-6106-abc",
-            "ma-121-ab",
             "cs-21",
+            "ma-121-ab",
+            "macs-6106-abc",
             "cs-2"
         ]
     },
@@ -386,9 +386,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/acm-95100-ab",
         "prereq_text": "Prerequisites: Ma 1 abc, Ma 2 or equivalents.",
         "prereqs": [
+            "ma-1-d",
             "ma-2102",
-            "ma-1-abc",
-            "ma-1-d"
+            "ma-1-abc"
         ]
     },
     "acmids-101-ab": {
@@ -457,9 +457,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/acmids-104",
         "prereq_text": "Prerequisites: Ma 1 abc, some familiarity with MATLAB, e.g. ACM 11 is desired.",
         "prereqs": [
-            "ma-1-abc",
             "ma-1-d",
-            "acm-11"
+            "acm-11",
+            "ma-1-abc"
         ]
     },
     "acmee-106-ab": {
@@ -474,13 +474,13 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/acmee-106-ab",
         "prereq_text": "Prerequisites: For ACM/EE 106 a, Ma 1 abc, Ma 2, Ma 3, ACM 11; for ACM/EE 106 b, ACM 95/100 ab or equivalent.",
         "prereqs": [
-            "acmee-106-ab",
-            "ma-1-d",
-            "ma-3103",
             "acm-95100-ab",
-            "ma-2102",
             "ma-1-abc",
-            "acm-11"
+            "ma-1-d",
+            "ma-2102",
+            "ma-3103",
+            "acm-11",
+            "acmee-106-ab"
         ]
     },
     "cmsacmids-107-ab": {
@@ -495,9 +495,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cmsacmids-107-ab",
         "prereq_text": "Prerequisites: ACM/IDS 104 or equivalent, Ma 1b or equivalent.",
         "prereqs": [
+            "ma-1-d",
             "acmids-104",
-            "ma-1-abc",
-            "ma-1-d"
+            "ma-1-abc"
         ]
     },
     "acm-109": {
@@ -525,9 +525,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cds-110",
         "prereq_text": "Prerequisites: Ma 1 abc and Ma 2/102 or equivalents.",
         "prereqs": [
+            "ma-1-d",
             "ma-2102",
-            "ma-1-abc",
-            "ma-1-d"
+            "ma-1-abc"
         ]
     },
     "hpsplcs-110": {
@@ -571,8 +571,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/ecacmcs-112",
         "prereq_text": "Prerequisites: Ma 3, ACM/EE/IDS 116 or equivalent.",
         "prereqs": [
-            "acmeeids-116",
-            "ma-3103"
+            "ma-3103",
+            "acmeeids-116"
         ]
     },
     "cs-115": {
@@ -587,8 +587,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cs-115",
         "prereq_text": "Prerequisites: CS 1 and CS 4.",
         "prereqs": [
-            "cs-4",
             "cs-1",
+            "cs-4",
             "cs-1-x"
         ]
     },
@@ -709,12 +709,12 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/csph-120",
         "prereq_text": "Prerequisites: Ma 1 b, Ph 2 b or Ph 12 b, CS 21, CS 38 or equivalent recommended (or instructor's permission).",
         "prereqs": [
-            "ma-1-d",
             "ph-12-abc",
-            "cs-21",
-            "cs-38",
             "ma-1-abc",
-            "ph-2-abc"
+            "ma-1-d",
+            "ph-2-abc",
+            "cs-21",
+            "cs-38"
         ]
     },
     "csids-121": {
@@ -805,9 +805,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/idsecps-126",
         "prereq_text": "Prerequisites: Ma 3/103 or ACM/EE/IDS 116, Ec 122 or IDS/ACM/CS 157 or Ma 112 a.",
         "prereqs": [
-            "acmeeids-116",
             "ma-3103",
             "idsacmcs-157",
+            "acmeeids-116",
             "ma-112-ab"
         ]
     },
@@ -897,10 +897,10 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cds-131",
         "prereq_text": "Prerequisites: Ma 1 b, Ma 2, ACM/IDS 104 or equivalent (may be taken concurrently).",
         "prereqs": [
-            "ma-2102",
+            "ma-1-d",
             "acmids-104",
-            "ma-1-abc",
-            "ma-1-d"
+            "ma-2102",
+            "ma-1-abc"
         ]
     },
     "cs-131": {
@@ -976,8 +976,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/eecsest-135",
         "prereq_text": "Prerequisites: EE 44, Ma 2, or equivalent.",
         "prereqs": [
-            "ma-2102",
-            "ee-44"
+            "ee-44",
+            "ma-2102"
         ]
     },
     "eemacsids-136": {
@@ -1036,12 +1036,12 @@
         "prereq_text": "Prerequisites: Ma 2, Ma 3, Ma/CS 6 a, CS 21, CS 38/138, and ACM/EE/IDS 116 or CMS/ACM/EE 122 or equivalent.",
         "prereqs": [
             "cmsacmee-122",
-            "acmeeids-116",
-            "macs-6106-abc",
-            "ma-3103",
             "cs-21",
+            "acmeeids-116",
+            "ma-2102",
+            "ma-3103",
             "cs-38",
-            "ma-2102"
+            "macs-6106-abc"
         ]
     },
     "maacmids-140-abc": {
@@ -1100,9 +1100,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cseeids-143",
         "prereq_text": "Prerequisites: Ma 2, Ma 3, Ma/CS 6 a, and CS 38, or instructor permission.",
         "prereqs": [
+            "ma-3103",
             "cs-38",
             "ma-2102",
-            "ma-3103",
             "macs-6106-abc"
         ]
     },
@@ -1118,9 +1118,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cmscsecee-144",
         "prereq_text": "Prerequisites: Ma 2, Ma 3, Ma/CS 6 a, and CS 38, or instructor permission.",
         "prereqs": [
+            "ma-3103",
             "cs-38",
             "ma-2102",
-            "ma-3103",
             "macs-6106-abc"
         ]
     },
@@ -1149,8 +1149,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/csee-146",
         "prereq_text": "Prerequisites: Ma 2, Ma 3 or instructor's permission.",
         "prereqs": [
-            "ma-2102",
-            "ma-3103"
+            "ma-3103",
+            "ma-2102"
         ]
     },
     "eecs-147": {
@@ -1222,8 +1222,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cs-151",
         "prereq_text": "Prerequisites: CS 21 and CS 38, or instructor's permission.",
         "prereqs": [
-            "cs-38",
-            "cs-21"
+            "cs-21",
+            "cs-38"
         ]
     },
     "cs-152": {
@@ -1238,10 +1238,10 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cs-152",
         "prereq_text": "Prerequisites: Ma 1 b, CS 21, CS 38 or equivalent recommended.",
         "prereqs": [
-            "cs-38",
-            "ma-1-abc",
             "cs-21",
-            "ma-1-d"
+            "ma-1-d",
+            "cs-38",
+            "ma-1-abc"
         ]
     },
     "csids-153": {
@@ -1256,8 +1256,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/csids-153",
         "prereq_text": "Prerequisites: CS 21 and CS 38, or instructor's permission.",
         "prereqs": [
-            "cs-38",
-            "cs-21"
+            "cs-21",
+            "cs-38"
         ]
     },
     "acmids-154": {
@@ -1272,10 +1272,10 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/acmids-154",
         "prereq_text": "Prerequisites: Basic differential equations, linear algebra, probability and statistics: ACM/IDS 104, ACM/EE 106 ab, ACM/EE/IDS 116, IDS/ACM/CS 157 or equivalent.",
         "prereqs": [
-            "acmeeids-116",
+            "idsacmcs-157",
             "acmids-104",
-            "acmee-106-ab",
-            "idsacmcs-157"
+            "acmeeids-116",
+            "acmee-106-ab"
         ]
     },
     "cmscscnseeids-155": {
@@ -1321,8 +1321,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/idsacmcs-157",
         "prereq_text": "Prerequisites: ACM/EE/IDS 116, Ma 3.",
         "prereqs": [
-            "acmeeids-116",
-            "ma-3103"
+            "ma-3103",
+            "acmeeids-116"
         ]
     },
     "idsacmcs-158": {
@@ -1337,9 +1337,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/idsacmcs-158",
         "prereq_text": "Prerequisites: ACM/IDS 104, ACM/EE/IDS 116, IDS/ACM/CS 157.",
         "prereqs": [
-            "acmeeids-116",
+            "idsacmcs-157",
             "acmids-104",
-            "idsacmcs-157"
+            "acmeeids-116"
         ]
     },
     "cscnseeids-159": {
@@ -1382,8 +1382,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/eecs-161",
         "prereq_text": "Prerequisites: Linear Algebra ACM/IDS 104 and Introduction to Probability Models ACM/EE/IDS 116 or their equivalents.",
         "prereqs": [
-            "acmeeids-116",
-            "acmids-104"
+            "acmids-104",
+            "acmeeids-116"
         ]
     },
     "csids-162": {
@@ -1426,8 +1426,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cs-164",
         "prereq_text": "Prerequisites: CS 4 or instructor's permission. CS 24 and CS 131 are strongly recommended but not required. Limit 20 students.",
         "prereqs": [
-            "cs-24",
             "cs-4",
+            "cs-24",
             "cs-131"
         ]
     },
@@ -1472,8 +1472,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/eecsids-167",
         "prereq_text": "Prerequisites: Ma 3 or ACM/EE/IDS 116.",
         "prereqs": [
-            "acmeeids-116",
-            "ma-3103"
+            "ma-3103",
+            "acmeeids-116"
         ]
     },
     "mecsee-169": {
@@ -1503,9 +1503,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/acmeeids-170",
         "prereq_text": "Prerequisites: ACM/IDS 104, CMS/ACM/EE 122, and ACM/EE/IDS 116; or instructor's permission.",
         "prereqs": [
+            "acmids-104",
             "cmsacmee-122",
-            "acmeeids-116",
-            "acmids-104"
+            "acmeeids-116"
         ]
     },
     "cscns-171": {
@@ -1520,8 +1520,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/cscns-171",
         "prereq_text": "Prerequisites: Extensive programming experience and proficiency in linear algebra, starting with CS 2 and Ma 1 b.",
         "prereqs": [
-            "ma-1-d",
             "ma-1-abc",
+            "ma-1-d",
             "cs-2"
         ]
     },
@@ -1537,8 +1537,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/csids-172",
         "prereq_text": "Prerequisites: CS 24, CS 38.",
         "prereqs": [
-            "cs-24",
-            "cs-38"
+            "cs-38",
+            "cs-24"
         ]
     },
     "cscns-174": {
@@ -1794,9 +1794,9 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/acm-201",
         "prereq_text": "Prerequisites: ACM 95/100 ab, ACM/IDS 101 ab, ACM 11 or equivalent.",
         "prereqs": [
-            "acmids-101-ab",
             "acm-95100-ab",
-            "acm-11"
+            "acm-11",
+            "acmids-101-ab"
         ]
     },
     "acmids-204": {
@@ -1867,8 +1867,8 @@
         "link": "https://www.CMS.caltech.edu/academics/courses/academics/courses/acmids-213",
         "prereq_text": "Prerequisites: ACM/IDS 104, CMS/ACM/EE 122.",
         "prereqs": [
-            "cmsacmee-122",
-            "acmids-104"
+            "acmids-104",
+            "cmsacmee-122"
         ]
     },
     "acmids-216": {

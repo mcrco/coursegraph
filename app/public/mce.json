@@ -93,8 +93,8 @@
         "link": "https://www.MCE.caltech.edu/academics/courses/academics/courses/me-14",
         "prereq_text": "Prerequisites: ME 12 ab, ME 13.",
         "prereqs": [
-            "me-12-abc",
-            "me-13113"
+            "me-13113",
+            "me-12-abc"
         ]
     },
     "me-23123": {
@@ -124,10 +124,10 @@
         "link": "https://www.MCE.caltech.edu/academics/courses/academics/courses/me-40",
         "prereq_text": "Prerequisites: Ma 1 abc, ME 11 abc, ME 12 abc.",
         "prereqs": [
-            "me-12-abc",
-            "ma-1-abc",
             "ma-1-d",
-            "me-11-abc"
+            "me-11-abc",
+            "me-12-abc",
+            "ma-1-abc"
         ]
     },
     "me-50-ab": {
@@ -142,11 +142,11 @@
         "link": "https://www.MCE.caltech.edu/academics/courses/academics/courses/me-50-ab",
         "prereq_text": "Prerequisites: ME 11 abc, ME 12 abc, ME 13, ME 14, and programming skills at the level of ACM 11.",
         "prereqs": [
-            "me-12-abc",
-            "me-13113",
+            "acm-11",
             "me-11-abc",
+            "me-13113",
             "me-14",
-            "acm-11"
+            "me-12-abc"
         ]
     },
     "me-72-ab": {
@@ -241,8 +241,8 @@
         "link": "https://www.MCE.caltech.edu/academics/courses/academics/courses/aeaphceme-101-abc",
         "prereq_text": "Prerequisites: APh 17 or ME 11 abc, and ME 12 or equivalent, ACM 95/100 or equivalent (may be taken concurrently).",
         "prereqs": [
-            "me-12-abc",
             "acm-95100-ab",
+            "me-12-abc",
             "me-11-abc"
         ]
     },
@@ -356,9 +356,9 @@
         "link": "https://www.MCE.caltech.edu/academics/courses/academics/courses/meeeest-117",
         "prereq_text": "Prerequisites: Ph 1 abc, Ch 1 ab and Ma 1 abc.",
         "prereqs": [
+            "ma-1-d",
             "ph-1-abc",
-            "ma-1-abc",
-            "ma-1-d"
+            "ma-1-abc"
         ]
     },
     "aeme-118": {
@@ -389,8 +389,8 @@
         "link": "https://www.MCE.caltech.edu/academics/courses/academics/courses/me-119",
         "prereq_text": "Prerequisites: ME 11 abc, ME 12 abc, ACM 95/100 (may be taken concurrently).",
         "prereqs": [
-            "me-12-abc",
             "acm-95100-ab",
+            "me-12-abc",
             "me-11-abc"
         ]
     },
@@ -465,8 +465,8 @@
         "link": "https://www.MCE.caltech.edu/academics/courses/academics/courses/mecegeese-146",
         "prereq_text": "Prerequisites: ME 11 abc, ME 12 abc, ACM 95/100, ACM 106 ab (may be taken concurrently).",
         "prereqs": [
-            "me-12-abc",
             "acm-95100-ab",
+            "me-12-abc",
             "me-11-abc"
         ]
     },

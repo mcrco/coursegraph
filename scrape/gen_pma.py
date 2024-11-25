@@ -38,7 +38,7 @@ def scrape_pma(dept):
         id = div.get("id")
         course_id = div.find("span", class_="course-description__label").get_text(
             strip=True
-        )
+        )[:-1]
         name = div.find("span", class_="course-description__title").get_text(
             strip=True
         )[:-1]

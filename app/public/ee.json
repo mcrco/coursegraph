@@ -132,9 +132,9 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/ee-44",
         "prereq_text": "Prerequisites: Ph 1 abc, can be taken concurrently with Ma 2 and Ph 2 a.",
         "prereqs": [
+            "ph-2-abc",
             "ma-2102",
-            "ph-1-abc",
-            "ph-2-abc"
+            "ph-1-abc"
         ]
     },
     "ee-45": {
@@ -164,8 +164,8 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/ee-55",
         "prereq_text": "Prerequisites: Ma 1 abc.",
         "prereqs": [
-            "ma-1-abc",
-            "ma-1-d"
+            "ma-1-d",
+            "ma-1-abc"
         ]
     },
     "cseeme-75-abc": {
@@ -222,8 +222,8 @@
         "prereq_text": "Prerequisites: EE 90; Recommended: EE/ME 007, EE/CS 10 ab, EE 13 and EE/MedE 114 ab (may be taken concurrently). Open to seniors; others only with instructor's permission.",
         "prereqs": [
             "ee-13",
-            "eecs-10-ab",
-            "ee-90"
+            "ee-90",
+            "eecs-10-ab"
         ]
     },
     "ee-99": {
@@ -264,13 +264,13 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/acmee-106-ab",
         "prereq_text": "Prerequisites: For ACM/EE 106 a, Ma 1 abc, Ma 2, Ma 3, ACM 11; for ACM/EE 106 b, ACM 95/100 ab or equivalent.",
         "prereqs": [
-            "acmee-106-ab",
-            "ma-1-d",
-            "ma-3103",
             "acm-95100-ab",
-            "ma-2102",
             "ma-1-abc",
-            "acm-11"
+            "ma-1-d",
+            "ma-2102",
+            "ma-3103",
+            "acm-11",
+            "acmee-106-ab"
         ]
     },
     "aphee-109": {
@@ -311,8 +311,8 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/ee-111",
         "prereq_text": "Prerequisites: Ma 1.",
         "prereqs": [
-            "ma-1-abc",
-            "ma-1-d"
+            "ma-1-d",
+            "ma-1-abc"
         ]
     },
     "ee-112": {
@@ -402,9 +402,9 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/meeeest-117",
         "prereq_text": "Prerequisites: Ph 1 abc, Ch 1 ab and Ma 1 abc.",
         "prereqs": [
+            "ma-1-d",
             "ph-1-abc",
-            "ma-1-abc",
-            "ma-1-d"
+            "ma-1-abc"
         ]
     },
     "phaphee-118-c": {
@@ -434,8 +434,8 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/phapheebe-118-ab",
         "prereq_text": "Prerequisites: Ph 127, APh 105, or equivalent, or permission from instructor.",
         "prereqs": [
-            "ph-105",
-            "ph-127-ab"
+            "ph-127-ab",
+            "ph-105"
         ]
     },
     "eecs-119-abc": {
@@ -466,8 +466,8 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/eeaph-120",
         "prereq_text": "Prerequisites: Intermediate-level familiarity with Fourier transforms and linear systems analysis. Basic understanding of Maxwell's electromagnetic theory (EE/APh 40 and EE 44, or equivalent).",
         "prereqs": [
-            "ee-44",
-            "eeaph-40"
+            "eeaph-40",
+            "ee-44"
         ]
     },
     "ee-121": {
@@ -585,9 +585,9 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/ee-128-ab",
         "prereq_text": "Prerequisites: EE 111 and EE/CS/IDS 160 or equivalent required, and EE 112 or equivalent recommended.",
         "prereqs": [
+            "ee-111",
             "eecsids-160",
-            "ee-112",
-            "ee-111"
+            "ee-112"
         ]
     },
     "mecsee-129": {
@@ -686,8 +686,8 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/eecsest-135",
         "prereq_text": "Prerequisites: EE 44, Ma 2, or equivalent.",
         "prereqs": [
-            "ma-2102",
-            "ee-44"
+            "ee-44",
+            "ma-2102"
         ]
     },
     "eemacsids-136": {
@@ -717,9 +717,9 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/cseeids-143",
         "prereq_text": "Prerequisites: Ma 2, Ma 3, Ma/CS 6 a, and CS 38, or instructor permission.",
         "prereqs": [
+            "ma-3103",
             "cs-38",
             "ma-2102",
-            "ma-3103",
             "macs-6106-abc"
         ]
     },
@@ -735,9 +735,9 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/cmscsecee-144",
         "prereq_text": "Prerequisites: Ma 2, Ma 3, Ma/CS 6 a, and CS 38, or instructor permission.",
         "prereqs": [
+            "ma-3103",
             "cs-38",
             "ma-2102",
-            "ma-3103",
             "macs-6106-abc"
         ]
     },
@@ -766,8 +766,8 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/csee-146",
         "prereq_text": "Prerequisites: Ma 2, Ma 3 or instructor's permission.",
         "prereqs": [
-            "ma-2102",
-            "ma-3103"
+            "ma-3103",
+            "ma-2102"
         ]
     },
     "eecs-147": {
@@ -998,8 +998,8 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/eecs-161",
         "prereq_text": "Prerequisites: Linear Algebra ACM/IDS 104 and Introduction to Probability Models ACM/EE/IDS 116 or their equivalents.",
         "prereqs": [
-            "acmeeids-116",
-            "acmids-104"
+            "acmids-104",
+            "acmeeids-116"
         ]
     },
     "ee-163": {
@@ -1014,8 +1014,8 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/ee-163",
         "prereq_text": "Prerequisites: EE 111; ACM/EE/IDS 116 or equivalent.",
         "prereqs": [
-            "acmeeids-116",
-            "ee-111"
+            "ee-111",
+            "acmeeids-116"
         ]
     },
     "ee-164": {
@@ -1074,8 +1074,8 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/eecsids-167",
         "prereq_text": "Prerequisites: Ma 3 or ACM/EE/IDS 116.",
         "prereqs": [
-            "acmeeids-116",
-            "ma-3103"
+            "ma-3103",
+            "acmeeids-116"
         ]
     },
     "medeeebe-168-abc": {
@@ -1118,9 +1118,9 @@
         "link": "https://www.EE.caltech.edu/academics/courses/academics/courses/acmeeids-170",
         "prereq_text": "Prerequisites: ACM/IDS 104, CMS/ACM/EE 122, and ACM/EE/IDS 116; or instructor's permission.",
         "prereqs": [
+            "acmids-104",
             "cmsacmee-122",
-            "acmeeids-116",
-            "acmids-104"
+            "acmeeids-116"
         ]
     },
     "eecsmede-175": {
