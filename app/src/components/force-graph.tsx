@@ -18,7 +18,7 @@ import { useGraphStore } from '@/stores/graphStore';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
 import { Toggle } from './ui/toggle';
 
-const DEPTS = ['CMS', 'Ma', 'EE', 'Ph', 'Ay'];
+const DEPTS = ['CMS', 'Ma', 'EE', 'Ph', 'Ay', 'MCE'];
 
 const nodeTypes = { courseNode: CourseNode };
 
